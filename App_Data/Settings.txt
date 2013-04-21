@@ -1,0 +1,2 @@
+DataProvider: sqlserver
+DataConnectionString: Data Source=f24c4vo1s0.database.windows.net;Initial Catalog=hayyam;Integrated Security=False;Persist Security Info=False;User ID=deploy;Password=pss23WRD45;MultipleActiveResultSets=True

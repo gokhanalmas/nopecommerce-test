@@ -1,0 +1,5 @@
+Payments.Manual
+Shipping.FixedRate
+Tax.FixedRate
+Widgets.NivoSlider
+ExternalAuth.Facebook
