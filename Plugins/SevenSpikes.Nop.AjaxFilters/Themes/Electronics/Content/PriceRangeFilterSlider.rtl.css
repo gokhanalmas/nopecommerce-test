@@ -1,0 +1,10 @@
+.priceRangeFilterPanel7Spikes .ui-state-default, .priceRangeFilterPanel7Spikes .ui-widget-content .ui-state-default, .priceRangeFilterPanel7Spikes .ui-widget-header .ui-state-default {
+    background: url("images/scale_knob.png") 0px top no-repeat !important;
+}
+.ui-state-default:hover, .ui-widget-content .ui-state-default:hover, .ui-widget-header .ui-state-default:hover {
+    background-position: inherit !important;
+}
+.clearPriceRangeFilter {
+    float: left !important;
+    line-height: 14px !important;
+}

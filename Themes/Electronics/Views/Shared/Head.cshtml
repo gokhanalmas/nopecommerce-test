@@ -1,0 +1,14 @@
+﻿@using Nop.Web.Framework;
+@using Nop.Core.Infrastructure;
+@using Nop.Web.Framework.UI;
+@using Nop.Core;
+@{
+    Html.AppendCssFileParts("~/Themes/Electronics/Content/styles.css");
+    
+    var supportRtl = EngineContext.Current.Resolve<IWorkContext>().WorkingLanguage.Rtl;
+    if (supportRtl)
+    {
+        Html.AppendCssFileParts("~/Themes/Electronics/Content/styles.rtl.css");
+    }
+    
+}

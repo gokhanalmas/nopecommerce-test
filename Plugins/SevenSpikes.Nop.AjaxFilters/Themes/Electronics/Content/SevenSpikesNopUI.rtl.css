@@ -1,0 +1,95 @@
+﻿input:focus,
+a:focus {outline: none !important; }
+.filtersTitlePanel p {
+    float: right !important;
+}
+.nopAjaxFilters7Spikes .clearFilterOptionsAll {
+    float: left !important;
+}
+.filtersGroupPanel a {
+    text-align: right !important;
+    padding-left: 0 !important;
+    padding-right: 15px !important;
+}
+.nopAjaxFilters7Spikes .block .title a.toggleControl {
+    background: url("images/filterGroupToggle.gif") no-repeat scroll right 5px transparent !important;
+    text-align: right !important;
+    padding: 0 15px 0 0 !important;
+    float: right !important;
+    width: 105px !important;
+    line-height: 14px !important;
+}
+.nopAjaxFilters7Spikes .block .title a.clearFilterOptions {
+    float: left !important;
+    line-height: 14px !important;
+}
+.nopAjaxFilters7Spikes .filtersTitle {
+    margin: 0 0 0 5px !important;
+}
+.filter-block .title {
+    height: auto !important;
+    padding: 12px 10px !important;
+}
+.nopAjaxFilters7Spikes .filtersGroupPanel a.filterItemUnselected
+{
+    background: url("images/checkbox.png") no-repeat scroll right 3px transparent !important;
+}
+.nopAjaxFilters7Spikes .filtersGroupPanel a.filterItemSelected
+{
+    background: url("images/checkbox.png") no-repeat scroll right -17px transparent !important;
+    padding-top: 0 !important;
+}
+.nopAjaxFilters7Spikes .filtersGroupPanel a.filterItemSelectedDisabled
+{
+    background: url("images/checkbox.png") no-repeat scroll right -37px transparent !important;
+}
+.nopAjaxFilters7Spikes .filtersGroupPanel a.filterItemDisabled
+{
+    background: url("images/checkbox.png") no-repeat scroll right -57px transparent !important;
+}
+.sortOptionsDropDown div,
+.productsPageSizeDropDown div,
+.viewOptionsDropDown div {
+    background: url("images/arrowDown.gif") no-repeat 6px 6px !important;
+}
+    .sortOptionsDropDown div p,
+    .productsPageSizeDropDown div p,
+    .jDropDown div p {
+        text-align: right !important;
+        padding: 0 4px 0 0 !important;
+    }
+.product-sorting,
+.product-page-size,
+.product-viewmode {
+    width: auto !important;
+}
+.product-sorting > span,
+.product-page-size > span,
+.product-viewmode > span {
+    float: right !important;
+    margin-left: 5px !important;
+    line-height: 18px !important;
+}
+
+.grid-display-options > div {
+    float: right !important;
+    margin-right: 0 !important;
+    padding: 0 15px !important;
+}
+    .grid-display-options > div > div {
+        float: right !important;
+    }
+.jDropDown div p {
+    line-height: 18px !important;
+}
+    .jDropDown ul li a {
+        padding: 2px 4px 0px 0 !important;
+        float: right !important;
+        width: auto !important;
+    }
+.jDropDown ul li span {
+    padding: 2px 4px 0px 0 !important;
+    float: right !important;
+    text-align: right !important;
+    margin: 0 !important;
+}

@@ -1,0 +1,27 @@
+﻿.product-details-page *{
+    direction: rtl !important;
+    text-align: right !important;
+}
+.product-variant-line .attributes dt {
+    float: right !important;
+    clear: both !important;
+    text-align: right !important;
+    min-width: 85px;
+}
+.product-details-page .attributes dl dt {
+    margin: 0 !important;
+}
+.product-variant-line .attributes dd {
+    float: right !important;
+    text-align: right !important;
+}
+.miniProductDetailsView .picture {
+    float: right !important;
+}
+.order-line .quantity {
+    margin: 6px 15px 0 15px !important;
+}
+.attributes ul {
+    list-style: none !important;
+    margin-bottom: 5px !important;
+}

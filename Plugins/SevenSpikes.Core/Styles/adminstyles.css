@@ -1,0 +1,84 @@
+﻿/*
+* Copyright 2012 Seven Spikes Ltd. All rights reserved. (http://www.nop-templates.com)
+* http://www.nop-templates.com/t/licensinginfo
+*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+   ADMIN 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+table.adminContent td.adminTitle
+{
+    padding: 10px !important;
+}
+
+table.adminContent td.adminTitle label
+{
+    font-weight: bold;
+}
+
+table.adminContent td.adminContent
+{
+    padding: 10px !important;
+}
+
+.localizedResource
+{
+    margin-top: 10px;
+    width: 710px;
+}
+
+.adminHint
+{
+    padding: 0;
+}
+
+.adminHint p
+{
+    margin: 0;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.controlTitle {
+    padding-left: 10px;
+    margin-bottom: 4px;
+    background-color: #E7EFEF;
+    width: 800px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.controlTitle:hover {
+    background-color: #e1e9e9;
+}
+
+.controlTitle a.toggleControl
+{
+    background: url("images/adminGroupToggle.png")  left top no-repeat;
+    display: block;
+    padding: 0 0 0 25px;
+    cursor: pointer;
+    font: normal bold 12px/25px arial;
+    color: #333;
+    text-shadow: 1px 1px 0 #f9f9f9;
+}
+
+.controlTitle a.toggleControl:hover 
+{
+    text-decoration: none;   
+}
+
+.controlTitle a.toggleControl.closed
+{
+    background-position: left bottom;
+}
+
+.adminGroupPanel {
+    margin: 20px 0;
+}
+.adminGroup {
+    overflow: hidden;
+}

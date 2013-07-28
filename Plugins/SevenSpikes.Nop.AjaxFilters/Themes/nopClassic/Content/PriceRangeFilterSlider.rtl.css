@@ -1,0 +1,10 @@
+.priceRangeFilterPanel7Spikes .filtersGroupPanel a.ui-slider-handle{
+    padding-right: 0px !important;
+}
+.ui-state-default:hover, .ui-widget-content .ui-state-default:hover, .ui-widget-header .ui-state-default:hover {
+    background-position: inherit !important;
+}
+.clearPriceRangeFilter {
+    float: left !important;
+    line-height: 14px !important;
+}

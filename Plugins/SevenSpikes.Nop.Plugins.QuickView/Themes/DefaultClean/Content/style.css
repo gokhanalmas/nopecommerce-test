@@ -1,0 +1,628 @@
+﻿/*
+* Copyright 2013 Seven Spikes Ltd. All rights reserved. (http://www.nop-templates.com)
+* http://www.nop-templates.com/t/licensinginfo
+*/
+
+
+
+
+/**************************** DEFAULT CLEAN ***************************/
+
+/********** START BUTTON *********/
+
+.quick-view-button {
+	display: none;
+    position: absolute;
+	z-index: 1;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 12px;
+    background: #ffffff;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #d3d3d3 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#d3d3d3));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#d3d3d3 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#d3d3d3 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#d3d3d3 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#d3d3d3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d3d3d3',GradientType=0 );
+}
+.product-grid .quick-view-button {
+    left: 50%;
+    top: 116px;
+    margin-left: -44px;
+}
+.product-list .quick-view-button {
+    left: 10%;
+    top: 144px;
+    margin-left: -42px;
+    margin-top: -12px;
+}
+.quick-view-button:hover {
+    background: #d3d3d3;
+    background: -moz-linear-gradient(top,  #d3d3d3 0%, #ffffff 100%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3d3d3), color-stop(100%,#ffffff)); 
+    background: -webkit-linear-gradient(top,  #d3d3d3 0%,#ffffff 100%); 
+    background: -o-linear-gradient(top,  #d3d3d3 0%,#ffffff 100%);
+    background: -ms-linear-gradient(top,  #d3d3d3 0%,#ffffff 100%); 
+    background: linear-gradient(to bottom,  #d3d3d3 0%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3d3d3', endColorstr='#ffffff',GradientType=0 ); 
+}
+
+.quick-view-button a {
+    display: block;
+    height: 100%;
+    text-align: center;
+    color: #000;
+    text-shadow: 1px 1px 1px #fff;
+    font: bold 11px/22px arial, helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.quickViewData {
+    display: none;
+}
+
+/********** END BUTTON *********/
+
+/********** START MAIN QUICKVIEW WINDOW *********/
+
+.quickViewWindow {
+    width: 720px;
+    z-index: 100;
+    padding: 10px 30px !important;
+    background: #ffffff;
+    background: -moz-radial-gradient(center, ellipse cover, #ffffff 36%, #e5e5e5 100%); 
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(36%,#ffffff), color-stop(100%,#e5e5e5)); 
+    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 36%,#e5e5e5 100%); 
+    background: -o-radial-gradient(center, ellipse cover, #ffffff 36%,#e5e5e5 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #ffffff 36%,#e5e5e5 100%); 
+    background: radial-gradient(ellipse at center, #ffffff 36%,#e5e5e5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+.quickViewWindow .product-essentials {
+	overflow: hidden;
+}
+.quickViewWindow h1.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px #4d4d4d;
+    color: #222;
+    margin-bottom: 10px;
+    border: none;
+    margin-top: 0;
+}
+
+
+/********** END MAIN QUICKVIEW WINDOW *********/
+
+/********** START GALLERY *********/
+
+.quickViewWindow .gallery {
+    float: left;
+    width: 250px;
+}
+        .quickViewWindow .gallery .no-cloud-zoom img {
+        width: 250px;
+        height: 250px;
+    }
+.quickViewWindow .gallery .picture {
+    overflow: hidden;
+    box-shadow: 0 2px 2px 0 #ccc;
+    margin: 0 !important;
+}
+    .quickViewWindow .gallery .picture a {
+		display: block;
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+    }
+.quickViewWindow .gallery .thumbnails,
+.quickViewWindow .gallery .links-panel  {
+    background: #f6f6f4;
+    box-shadow: 0 2px 2px 0 #ccc;
+    margin-top: 10px;
+    padding: 10px 9px;
+    overflow:hidden;
+}
+    .quickViewWindow .gallery .thumbnails a,
+    .quickViewWindow .gallery .thumbnails > img {
+        display: block;
+        float: left;
+        width: 65px;
+        height: 65px;
+        overflow: hidden;
+        margin: 0 6px 5px;
+    }
+        .quickViewWindow .gallery .thumbnails a img:hover {
+            opacity: 0.7;
+        }
+.quickViewWindow .gallery .links-panel a {
+    background: url(images/bullet-right.gif) no-repeat left center;
+    border: none !important;
+    display: block;
+    padding-left: 15px;
+    color: #000;
+    text-shadow: 1px 1px 0 #ddd;
+    font-size: 14px;
+	text-align: left;
+}
+.quickViewWindow .gallery .links-panel a:hover {
+    text-decoration:underline;
+}
+
+/********** END GALLERY *********/
+
+/********** START PRODUCT OVERVIEW *********/
+
+.quickViewWindow .overview {
+    width: 400px;
+    float: right;
+}
+.quickViewWindow #accordion {
+    float: right;
+    box-shadow: 0 2px 2px 0 #ccc;
+}
+.quickViewWindow .overview #accordion > h3 {
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: left;
+    padding-left: 10px;
+    border-top: 1px solid #999;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-radius: 0;
+}
+    .quickViewWindow .overview #accordion > h3:first-child {
+        border-top: none;
+    }
+.quickViewWindow .overview #accordion > h3 span.ui-icon-triangle-1-s {
+    background: url(images/minus.png) no-repeat center;
+}
+.quickViewWindow .overview #accordion > h3 span.ui-icon-circle-arrow-e {
+    background: url(images/plus.png) no-repeat center;
+}
+.quickViewWindow .overview #accordion > h3 span {
+    left: inherit;
+    right: .5em;
+}
+.quickViewWindow .overview #accordion div.product-details {
+    border: none !important;
+    margin-bottom: 0;
+    background: #f6f6f4;
+    margin-top: 0;
+    border-radius: 0;
+    border-top: 1px solid #999 !important;
+    padding: 10px;
+    top: 0;
+}
+.quickViewWindow .overview .left > *,
+.quickViewWindow .overview .right > * {
+    margin-bottom: 5px;
+}
+    .quickViewWindow .overview .left {
+        float: left;
+        text-align: left;
+    }
+    .quickViewWindow .overview .right {
+        float: right;
+        text-align: right;
+    }
+.quickViewWindow .overview .left .stock {
+    line-height: 24px;
+}
+.quickViewWindow .overview .left .back-in-stock-subscription {
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+.quickViewWindow .left .back-in-stock-subscription .subscribe-button {
+    margin: 0;
+    padding: 3.5px 6px 3.5px;
+}
+.quickViewWindow .left .subscribe-button:hover {
+    text-decoration: none;
+}
+.quickViewWindow .overview .left .download-sample {
+    margin-bottom: 8px;
+}
+.quickViewWindow .overview .left .download-sample-button a {
+    text-shadow: 1px 1px 0 #bbb;
+    color: #060;
+}
+.quickViewWindow .overview .left .download-sample-button a:hover {
+    text-decoration: underline;
+}
+    .quickViewWindow .overview .email-a-friend input,
+    .quickViewWindow .overview .compare-products input {
+        margin: 0;
+    }
+.quickViewWindow .overview .add-to-wishlist {
+    overflow: hidden;
+}
+.quickViewWindow .overview .add-to-wishlist-button {
+    margin:0;
+    float: right;
+}
+.quickViewWindow .overview .product-variant-line {
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+}
+.quickViewWindow .overview .product-variant-line .attributes dl {
+    text-align: left;
+}
+.quickViewWindow .overview .product-variant-line .attributes dl * {
+    margin: 0;
+    padding: 0;
+}
+    .quickViewWindow .overview .product-variant-line .attributes dl dt,
+    .quickViewWindow .overview .product-variant-line .attributes dl dd {
+        float: left;
+    }
+    .quickViewWindow .overview .product-variant-line .attributes dl dt {
+        clear: left;
+        margin: 0 20px 5px 0;
+    }
+    .quickViewWindow .overview .product-variant-line .attributes dl dd {
+        margin-bottom: 5px;
+    }
+.quickViewWindow .overview .product-variant-line .attributes ul {
+    list-style: none;
+}
+.quickViewWindow .overview #accordion .bottom {
+    border-top: 1px dashed #999;
+    overflow:hidden;
+    padding: 10px 0 0;
+    margin-top: 10px;
+    float:none;
+}
+    .quickViewWindow .overview #accordion .bottom .prices{
+        float: left;
+        margin: 0;
+        line-height: 32px;
+        text-align: left;
+    }
+    .quickViewWindow .overview #accordion .bottom .add-to-cart {
+        margin: 0;
+        float: right;
+        color: #f6f6f4;
+    }
+    .quickViewWindow .overview #accordion .bottom .add-to-cart div * {
+        float: left;
+    }
+    .quickViewWindow .overview #accordion .bottom .add-to-cart .add-to-cart-button {
+        margin: 0 0 0 -11px;
+        float: none;
+        display: inline;
+        padding: 7px 10px;
+    }
+    .quickViewWindow .overview #accordion .bottom .add-to-cart .qty-input {
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 18px;
+        padding: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .quickViewWindow .overview #accordion .bottom .add-to-cart .qty-label {
+        line-height: 32px;
+        color: #000;
+    }
+    .quickViewWindow .overview #accordion .bottom .add-to-cart .add-to-wishlist-button {
+        display: none;
+    }
+
+.quickViewWindow .overview .full-description {
+    border: none;
+}
+.quickViewWindow .overview .product-specs-box .title {
+    display: none;
+}
+
+/********** END PRODUCT ESSENTIAL *********/    
+
+/********** START RELATED/ALSO-PURCHASED PRODUCTS *********/
+
+.quickViewWindow .bottom {
+    float:right;
+}
+.quickViewWindow .product-grid {
+    overflow: hidden;
+    float: right;
+    background: #f6f6f4;
+    box-shadow: 0 2px 2px 0 #ccc;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align:center;
+    padding-bottom: 5px;
+    height: 163px;
+}
+.quickViewWindow .also-purchased-products-grid {
+    height: 150px;
+    width: 400px;
+}
+.quickViewWindow .product-grid .item-box {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    height: 137px;
+}
+.quickViewWindow .product-grid .item-box .product-item{
+    width: auto ;
+    height: auto;
+    text-align: inherit;
+}
+.quickViewWindow .product-grid .item-box .picture {
+    width: 113px;
+    border: none;
+}
+    .quickViewWindow .product-grid .item-box .picture a {
+        overflow: hidden;
+        display: block;
+        width: 85px;
+        height: 85px;
+        margin: 0 auto;
+    }
+.quickViewWindow .product-grid .product-item {
+    border: none;
+}
+    .quickViewWindow .product-grid .product-item .picture {
+        box-shadow: none;
+        height: 85px;
+        float: none;
+        overflow: hidden;
+        background: none;
+    }
+.quickViewWindow .product-grid .item-box,
+.quickViewWindow .also-purchased-products-grid .item-box {
+    width: 113px;
+    padding: 0;
+}
+.quickViewWindow .also-purchased-products-grid .item-box {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 124px;
+}
+    .quickViewWindow .product-grid .item-box .product-title {
+        padding: 0;
+        font-size: 10px;
+    }
+        .quickViewWindow .product-grid .item-box .product-title a {
+            display: inline;
+            line-height: inherit;
+        }
+.quickViewWindow .product-grid .product-item .description {
+    display: none;
+}
+.quickViewWindow .product-grid .product-item .add-info {
+    display: none;
+}
+.quickViewWindow .related-products-grid .title, .quickViewWindow .also-purchased-products-grid .title {
+    text-align: center;
+}
+
+/********** END RELATED/ALSO-PURCHASED PRODUCTS *********/
+
+/********* START KENDO TITLEBAR BUTTON ********/
+
+div.k-window-content {
+    overflow: hidden !important;
+}
+
+.quickView .k-window-titlebar {
+    border: none !important;
+    top: 0 !important;
+    right: 0 !important;
+    background: rgba(0,0,0,0) !important;
+    width: 100% !important;
+    z-index: 100000 !important;
+    height: 29px !important;
+    margin-top: 0 !important;
+}
+.quickView .k-window-titlebar .k-window-actions {
+    right: 0 !important;
+    padding-top: 0 !important;
+}
+.quickView .k-close, .k-close:hover, 
+.quickView .k-i-close, 
+.quickView .k-i-close:hover, 
+.quickView .k-window-titlebar .k-window-action, 
+.quickView .k-window-titlebar .k-window-action:hover {
+    border: none !important;
+    width: 16px !important;
+    height: 16px !important;
+}
+    .quickView .k-window-titlebar .k-window-action, 
+    .quickView .k-window-titlebar .k-window-action:hover {
+        background: none !important;
+        border: none !important;
+    }
+    .quickView .k-window-titlebar .k-state-hover {
+        padding: 0 !important;
+        border: none !important;
+        display: inline-block !important;
+    }
+.quickView .k-window-titlebar .k-window-action {
+    padding: 0 !important;
+    display: inline-block !important;
+}
+    .quickView .k-window-titlebar .k-window-action:hover {
+        display: inline-block !important;
+        margin-right: 0 !important;
+    }
+.quickView .k-header {
+    background: none !important;
+}
+.quickView .k-widget.k-window {
+    padding-top: 0 !important;
+}
+
+/********* END KENDO TITLEBAR BUTTON ********/
+
+/********* START VARIANTS IN GRID ********/
+
+.quickViewWindow .overview .variants-in-grid .product-variant-list {
+    overflow: hidden;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.quickViewWindow .overview .variants-in-grid .variant-grid-info {
+    border-top: 1px dashed #333;
+    padding-top: 10px;
+    overflow:hidden;
+}
+    .quickViewWindow .overview .variants-in-grid .product-variant-list .item-row {
+        margin-bottom: 10px;
+    }
+.quickViewWindow .overview .variants-in-grid .product-variant-list .product-variant {
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+.quickViewWindow .overview .variants-in-grid .product-variant-list .product-variant .variant-picture {
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.quickViewWindow .overview .variants-in-grid .product-variant-list .product-variant .variant-info {
+    position: absolute;
+    bottom: 0;
+    right: 125px;
+    padding: 3px 10px;
+    width: 103px;
+    color: #fff;
+    background: rgba(0,0,0,0.6);
+    font-size: 11px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    text-align: center;
+}
+    .quickViewWindow .overview .variants-in-grid .product-variant-list .product-variant:hover .variant-info {
+        right: 1px;
+    }
+.quickViewWindow .overview .variants-in-grid .product-variant-list .product-variant .moreInfoHover{
+    position: absolute;
+    bottom: 0;
+    right: 1px;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    padding: 2px 7px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+    .quickViewWindow .overview .variants-in-grid .product-variant-list .product-variant:hover .moreInfoHover {
+        right: -125px;
+    }
+.quickViewWindow .overview .variants-in-grid .product-variant-list .product-variant .variant-info .variant-name {
+    max-height: 28px;
+    overflow: hidden;
+}
+.quickViewWindow .overview .variants-in-grid .product-variant-list .product-variant .variant-info .variant-name a {
+    color: #fff;
+}
+.quickViewWindow .overview .variants-in-grid .product-variant-list .product-variant .prices {
+    margin: 3px !important;
+    float: none;
+}
+    .quickViewWindow .overview .variants-in-grid .product-variant-list .product-variant .prices .product-price {
+        font-size: 12px;
+        color: #ed2525;
+        font-weight: bold;
+    }
+    .quickViewWindow .overview #accordion .prices .product-price {
+        font-size: 12px;
+        color: #B80709;
+    }
+    .quickViewWindow .overview #accordion .prices .old-product-price {
+        color: #5C5B5B;
+        text-decoration: line-through;
+    }
+.quickViewWindow .overview .variants-in-grid .variant-grid-info .compare-products {
+    float: right;
+}
+.quickViewWindow .overview .variants-in-grid .variant-grid-info .manufacturers {
+    float:left;
+}
+
+/********* END VARIANTS IN GRID ********/
+
+/********* START GIFTCARD ********/
+
+.quickViewWindow .giftcard dl,
+.quickViewWindow .giftcard dl > * {
+    margin: 0;
+    padding: 0;
+}
+    .quickViewWindow .giftcard dl input {
+        margin: 0;
+        padding: 2px;
+    }
+    .quickViewWindow .giftcard dl dt {
+        clear: both;
+        margin-right: 10px;
+        float: left;
+    }
+    .quickViewWindow .giftcard dl dd {
+        margin-bottom: 5px;
+        float: right;
+    }
+        .quickViewWindow .giftcard dl dd textarea {
+            height: 80px;
+            width: 250px;
+            outline: none;
+            resize: none;
+        }
+
+/********* END GIFTCARD ********/
+
+/********* COLOR SQUARES *********/
+
+.quickViewWindow .color-squares li{
+    display:inline;
+}
+.quickViewWindow .color-squares .color-container{
+    position: relative;
+    display:inline-block;
+    border:solid 1px #999;
+    padding:1px;
+    margin-bottom:5px;
+}
+.quickViewWindow .color-squares .selected-value .color-container{
+    border-color:#075899;
+    border-width:2px;
+    padding:0;
+}
+.quickViewWindow .color-squares .color{
+    display:inline-block;
+    width:18px;
+    height:18px;
+}
+.quickViewWindow .color-squares label{
+    cursor:pointer;
+    position:relative;
+}
+.quickViewWindow .color-squares input{
+    height:0;
+    overflow:hidden;
+    z-index:-10000;
+    position:absolute;
+    float:none;
+}

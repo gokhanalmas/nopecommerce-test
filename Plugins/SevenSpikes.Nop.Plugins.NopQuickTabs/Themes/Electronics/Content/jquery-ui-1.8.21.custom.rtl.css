@@ -1,0 +1,9 @@
+﻿.productTabs-header ul li{
+    float: right !important;
+}
+.productTabs-body p {
+    text-align: right !important;
+}
+.ui-tabs .ui-tabs-nav li {
+    float: right !important;
+}

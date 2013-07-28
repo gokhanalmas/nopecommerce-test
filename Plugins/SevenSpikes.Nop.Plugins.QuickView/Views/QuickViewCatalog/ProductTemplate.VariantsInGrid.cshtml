@@ -1,0 +1,12 @@
+﻿@using SevenSpikes.Nop.Plugins.QuickView.Models;
+@model QuickViewProductPageModel
+@{
+    if(Model.ProductDetails.ProductVariantModels.Count > 1)
+    {
+        @Html.Partial("_Multi");
+    }
+    else
+    {
+        @Html.Partial("_Single");
+    }
+}

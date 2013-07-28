@@ -1,0 +1,24 @@
+﻿@** Copyright 2013 Seven Spikes Ltd. All rights reserved. (http://www.nop-templates.com)
+* http://www.nop-templates.com/t/licensinginfo
+*@
+
+@using SevenSpikes.Nop.Plugins.QuickView.Models;
+@model QuickViewModel
+@{
+    Html.AppendCssFileParts("~/Plugins/SevenSpikes.Core/Styles/kendo.common.min.css");
+    Html.AppendCssFileParts("~/Plugins/SevenSpikes.Core/Styles/kendo.default.min.css");
+    Html.AppendCssFileParts("~/Plugins/SevenSpikes.Nop.Plugins.QuickView/Themes/" + Model.Theme + "/Content/cloud-zoom.css");
+    Html.AppendCssFileParts("~/Plugins/SevenSpikes.Nop.Plugins.QuickView/Themes/" + Model.Theme + "/Content/style.css");
+
+    Html.AppendScriptParts("~/Plugins/SevenSpikes.Core/Scripts/kendo.all.min.js");
+    Html.AppendScriptParts("~/Plugins/SevenSpikes.Nop.Plugins.QuickView/Scripts/jquery.json-2.2.min.js");
+    Html.AppendScriptParts("~/Plugins/SevenSpikes.Nop.Plugins.QuickView/Scripts/cloud-zoom.1.0.2.min.js");
+    Html.AppendScriptParts("~/Plugins/SevenSpikes.Nop.Plugins.QuickView/Scripts/QuickView.min.js");
+
+    <div class="quickViewData" data-productSelector="@Model.QuickViewSettingsModel.ProductItemSelector" 
+         data-retrieveQuickViewUrl="@Url.Action("QucikViewData", "QuickViewCatalog")" 
+         data-quickViewButtonText="@T("SevenSpikes.QuickView.Admin.Settings.QuickViewButtonText")" 
+         data-isQuickViewPopupDraggable="@Model.QuickViewSettingsModel.MakeQuickViewPopupDraggable" 
+         data-enableQuickViewPopupOverlay="@Model.QuickViewSettingsModel.EnableQuickViewPopupOverlay">
+    </div>
+}

@@ -1,0 +1,19 @@
+﻿.search-box,
+.search-box * {
+    direction: rtl;
+}
+body .k-animation-container {
+    left: 26px !important;
+}
+.instant-search-item .img-block {
+    float: right !important;
+}
+.instant-search-item .detail .title,
+.instant-search-item .detail .price {
+    text-align: right !important;
+}
+.instant-search-item .detail {
+    margin: 0 !important;
+    float: left !important;
+    width: 270px !important;
+}

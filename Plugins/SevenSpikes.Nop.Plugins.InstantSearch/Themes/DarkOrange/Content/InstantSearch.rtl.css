@@ -1,0 +1,25 @@
+﻿.search-box,
+.search-box * {
+    direction: rtl;
+}
+    .search-box .instant-search-busy {
+        background: #e9e9e9 url('images/ajax-loader-small.gif') 5px center no-repeat !important;
+    }
+body .k-animation-container {
+    left: 39px !important;
+}
+.instant-search-item .img-block {
+    float: right !important;
+}
+.instant-search-item .detail .title,
+.instant-search-item .detail .price {
+    text-align: right !important;
+}
+.instant-search-item .detail {
+    margin: 0 !important;
+    float: left !important;
+    width: 160px !important;
+}
+.k-animation-container .k-list-container {
+    border-radius: 4px 0 4px 4px !important;
+}

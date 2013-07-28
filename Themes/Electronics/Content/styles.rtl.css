@@ -1,0 +1,423 @@
+﻿/************* START MISCELLANEOUS *************/
+
+body {
+    direction: rtl !important;
+}
+li {
+    text-align: right !important;
+}
+.master-wrapper-side-2 {
+    float:right !important;
+}
+.master-wrapper-center-2 {
+    float: left !important;
+}
+.master-wrapper-main {
+    overflow:hidden;
+}
+.master-wrapper-rightside-3 {
+    float: left !important;
+}
+.master-wrapper-center-3 {
+    float: right !important;
+    margin-left: 8px !important;
+}
+.master-wrapper-leftside-3 {
+    float: right !important;
+    margin-left: 8px !important;
+    margin-right: 0 !important;
+}
+input[type="text"], input[type="password"] {
+    padding: 2px 2px 2px 0 !important;
+}
+.inputs label {
+    float: right !important;
+}
+.contact-us-button {
+    float: left !important;
+}
+.category-box .item,
+.manufacturer-box .item {
+    text-align: right !important;
+}
+.searchbox .instant-search-busy {
+    background: #E9E9E9 url('images/ajax_loader_small.gif') 5px center no-repeat !important;
+}
+.addthis_counter.addthis_bubble_style a.addthis_button_expanded {
+    -webkit-transform: rotate(-180deg);
+    margin-top: -4px;
+}
+.addthis_toolbox {
+    float: none !important;
+}
+.addthis_counter.addthis_bubble_style {
+    float: right;
+    -webkit-transform: rotate(-180deg);
+}
+.addthis_default_style .addthis_separator, .addthis_default_style .at300b, .addthis_default_style .at300bo, .addthis_default_style .at300m, .addthis_default_style .at300bs {
+    float: right;
+}
+
+/************* END MISCELLANEOUS *************/
+
+/************* START HEADER *************/
+
+.top-bar .header-languageselector {
+    float: right !important;
+    padding-left: 0 !important;
+    padding-right: 10px !important;
+}
+.header-languageselector span {
+    float: right !important;
+}
+.admin-header-links * {
+    text-align: center !important;
+}
+.header-logo,
+.header-links ul li {
+    float: right !important;
+}
+.header-links a,
+.header-currencyselector{
+    float: left !important;
+}
+.header-links a {
+    text-align: right !important;
+}
+.header-links-wrapper,
+.header-shopping-bag {
+    left:0 !important;
+    right:inherit !important;
+}
+.header-currencyselector {
+    float: right !important;
+    padding-right: 15px !important;
+}
+    .header-currencyselector span {
+        float: right !important;
+    }
+    .header-currencyselector select {
+        float: left !important;
+        margin-right: 5px  !important;
+    }
+.searchbox {
+    float: left !important;
+}
+.searchbox .searchboxtext {
+    margin-left: 0 !important;
+    float: right !important;
+}
+.searchbox .searchboxtext input {
+    text-align: right !important;
+    float: none !important;
+}
+    .searchbox .searchboxbutton {
+        float: right !important;
+    }
+.searchbox .search-box-text {
+    margin-left: 0 !important;
+}
+    .searchbox .search-box ul li {
+        float: right !important;
+    }
+.breadcrumb {
+    float: right !important;
+}
+.breadcrumb a {
+        border-right: 1px solid #333 !important;
+        border-left: none !important;
+    }
+    .breadcrumb a:first-child {
+        border-right: none !important;
+        border-left: none !important;
+    }
+body ul.ui-autocomplete {
+    left: -21px !important;
+}
+
+
+/************* END HEADER *************/
+
+/************* START HOME PAGE *************/
+
+.topic-html-content-title {
+    padding: 0 10px 0 0 !important;
+}
+    .topic-html-content-title h2 {
+        text-align: right !important;
+        float: right !important;
+    }
+.topic-html-content-body {
+    text-align: right !important;
+}
+.block-poll .poll-item {
+    text-align: right !important;
+}
+
+/************* END HOME PAGE *************/
+
+/************* START SHOPPING CART *************/
+
+.checkout-as-guest-or-register-block dd .button-1 {
+    margin-left: 5px !important;
+}
+.order-progress ul li {
+    display: inline-block !important;
+}
+.order-summary-content .coupon-box .discount-coupon-code, .order-summary-content .giftcard-box .gift-card-coupon-code {
+    width: 111px !important;
+    float: right !important;
+    margin-left: 5px !important;
+    height: 19px !important;
+}
+.order-summary-content .coupon-box, .order-summary-content .giftcard-box {
+    overflow: hidden !important;
+}
+.address-grid .address-box {
+    text-align: right !important;
+    padding-right: 5px !important;
+}
+.enter-address, .checkout-data .shipping-options, .payment-methods, .payment-info, .confirm-order, .checkout-data .order-completed {
+    float: none !important;
+}
+.enter-address-body table tr td,
+.address-edit-page table tr td {
+    text-align: right !important;
+}
+.enter-address-body table tr td:first-child,
+.address-edit-page table tr td:first-child {
+    width: 100px !important;
+}
+.checkout-data .shipping-options .shipping-option-item, .payment-method-item {
+    text-align: right !important;
+    padding: 5px 5px 0 0 !important;
+}
+.payment-info p {
+    text-align: right !important;
+}
+.billinginfo,
+.shippinginfo {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.checkout-data .order-completed .body {
+    text-align: right !important;
+}
+.order-item .info {
+    float: right !important;
+    text-align: right !important;
+}
+.order-item .buttons {
+    float: left !important;
+    width: 200px !important;
+}
+    .order-item .buttons * {
+        float: left !important;
+        margin-left: 5px !important;
+    }
+.form-fields dt{
+    width: 100px !important;
+}
+.form-fields dd {
+    margin-bottom: 10px !important;
+}
+
+/************* END SHOPPING CART *************/
+
+
+/************* START WISHLIST *************/
+
+.common-buttons .button-2 {
+    margin-right: 5px !important;
+}
+
+/************* START WISHLIST *************/
+
+/************* START PROFILE *************/
+
+.form-fields dt {
+    float: right !important;
+}
+.form-fields dt,
+.form-fields dd {
+    text-align: right !important;
+}
+.save-customer-info-button {
+    float: left !important;
+}
+.account-page legend {
+    text-align: right !important;
+}
+.address-list-page .address-list .info {
+    float: right !important;
+    text-align: right !important;
+}
+.address-list-page .address-list .buttons {
+    float: left !important;
+}
+.add-address-button {
+    float: left !important;
+}
+
+/************* END PROFILE *************/
+
+/************* START MANUFACTURER PAGE **************/
+
+
+
+/************* END MANUFACTURER PAGE **************/
+
+/************* START CATEGORY PAGE *************/
+
+.category-title h1 {
+    padding: 3px 23px 2px 0 !important;
+}
+.product-pager-and-sorter-and-view-options-7Spikes .product-pager-and-size .pager,
+.category-page .product-sorting-and-view-options .product-sorting {
+    float: left !important;
+}
+.product-pager-and-sorter-and-view-options-7Spikes .product-pager-and-size .pager span,
+.product-pager-and-sorter-and-view-options-7Spikes .product-pager-and-size .pager a {
+    float:right !important;
+    margin-right: 3px !important;
+}
+
+.product-pager-and-sorter-and-view-options-7Spikes .product-pager-and-size .product-page-size,
+.product-sorting-and-view-options .product-viewmode {
+    float: right !important;
+}
+
+.add-info .buttons {
+    margin-top: 5px !important;
+}
+
+.product-list .product-item .picture{
+    float: right !important;
+}
+.product-list .product-item .product-title, .product-list .product-item .description, .product-list .product-item .add-info
+{
+    margin-left: 0px !important;
+    margin-right: 180px !important;
+}
+.product-list .item-box{
+    text-align: right !important;
+}
+.product-list .product-item .prices {
+    float: right !important;
+    margin: 4px 0 0 13px !important;
+}
+.product-variant-line .variant-picture{
+    float: right !important;
+}
+.product-variant-line .prices {
+    float: right !important;
+    margin-right: 0 !important;
+    margin-left: 10px !important;
+}
+.product-variant-line .add-to-cart{
+    text-align: right !important;
+}
+.product-variant-line .add-to-cart label
+{
+    float: right !important;
+}
+/************* END CATEGORY PAGE *************/
+
+/************* START PRODUCT PAGE *************/
+
+.product-details-info .picture {
+    float: right !important;
+    margin-left: 10px;
+}
+.product-details-info .add-to-links li {
+    float: right !important;
+    background: url('images/bkg_add-to.gif') right 50% no-repeat !important;
+    padding-right: 12px !important;
+}
+.product-details-info .shortdescription {
+    float: right !important;
+}
+.product-details-info .add-to-links {
+    float: left !important;
+}
+.product-details-info .product-options-bottom .add-to-cart {
+    text-align: right !important;
+}
+.product-details-info .product-options-bottom .add-to-cart * {
+    margin-left: 2px !important;
+}
+.product-details-info .product-options-bottom .add-to-cart .qty-input {
+    margin-left: 6px !important;
+}
+.product-variant-line .attributes dt {
+    float: right !important;
+    clear: both !important;
+    text-align: right !important;
+}
+.product-variant-line .attributes dd {
+    float: right !important;
+    text-align: right !important;
+}
+.data-table td {
+    text-align: right !important;
+}
+.product-details-info .overview .download-sample,
+.product-variant-line .download-sample {
+    float: right !important;
+}
+
+/************* END PRODUCT PAGE *************/
+
+/************* START REGISTER PAGE **************/
+
+.form-fields legend {
+    text-align: right !important;
+}
+.registration-page dt {
+    float:right  !important;
+    margin-left: 20px;
+    width: 100px !important;
+}
+.registration-page dd {
+    text-align: right !important;
+}
+.accept-privacy-policy {
+    margin-right: 3px !important;
+}
+.registration-page .buttons {
+    float: left !important;
+}
+.registration-page {
+    overflow: hidden;
+}
+
+/************* END REGISTER PAGE **************/
+
+/************* START LOGIN PAGE **************/
+
+.returning-wrapper dt {
+    float: right !important;
+    width: 80px !important;
+    margin-left: 20px !important;
+}
+.login-page dd {
+    text-align: right !important;
+}
+.login-page .form-fields dd.buttons,
+.register-block dd.buttons {
+    float: left !important;
+}
+
+/************* START FOOTER *************/
+
+.master-wrapper-content-footer li, .master-wrapper-content-footer span.powered-by {
+    float: right !important;
+}
+.footer-storetheme {
+    width: 210px !important;
+}
+.footer-disclaimer {
+    float: left !important;
+}
+
+/************* START FOOTER *************/

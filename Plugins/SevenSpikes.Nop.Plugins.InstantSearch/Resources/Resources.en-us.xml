@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language Name="English">
+  <LocaleResource Name="ActivityLog">
+    <Value>Activity Log</Value>
+    <Children>
+      <LocaleResource Name="EditInstantSearchSettings">
+        <Value>Instant Search settings has been edited.</Value>
+      </LocaleResource>
+    </Children>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes">
+    <Value>SevenSpikes</Value>
+    <Children>
+      <LocaleResource Name="InstantSearch">
+        <Value>Nop Instant Search</Value>
+        <Children>
+          <LocaleResource Name="Admin">
+            <Value>Admin</Value>
+            <Children>
+              <LocaleResource Name="Settings">
+                <Value>Settings</Value>
+                <Children>
+                  <LocaleResource Name="Common">
+                    <Value>Nop Instant Search Settings</Value>                   
+                  </LocaleResource>
+                  <LocaleResource Name="GeneralSettings">
+                    <Value>General Settings</Value>
+                  </LocaleResource>
+                  <LocaleResource Name="InstantSearchAdvancedSettings">
+                    <Value>Instant Search Advanced Settings</Value>
+                  </LocaleResource>
+                  <LocaleResource Name="NumberOfProducts">
+                    <Value>Number Of Products</Value>
+                    <Children>
+                      <LocaleResource Name="Hint">
+                        <Value>The number of products to show in the search results.</Value>
+                      </LocaleResource>
+                    </Children>
+                  </LocaleResource>
+                  <LocaleResource Name="PictureSize">
+                    <Value>Product Picture Size (pixels)</Value>
+                    <Children>
+                      <LocaleResource Name="Hint">
+                        <Value>The size (in pixels) of the product picture that is shown in the instant search results.</Value>
+                      </LocaleResource>
+                    </Children>
+                  </LocaleResource>
+                  <LocaleResource Name="Enable">
+                    <Value>Enable Instant Search</Value>
+                    <Children>
+                      <LocaleResource Name="Hint">
+                        <Value>Set to enable the Instant Search plugin. If disabled the default nopCommerce autocomplete will be enabled.</Value>
+                      </LocaleResource>
+                    </Children>
+                  </LocaleResource>
+                  <LocaleResource Name="SearchDescriptions">
+                    <Value>Search in Descriptions</Value>
+                    <Children>
+                      <LocaleResource Name="Hint">
+                        <Value>Set to search in product descriptions (might be slower).</Value>
+                      </LocaleResource>
+                    </Children>
+                  </LocaleResource>
+                  <LocaleResource Name="MinKeywordLength">
+                    <Value>Minimum Keyword Length</Value>
+                    <Children>
+                      <LocaleResource Name="Hint">
+                        <Value>The minimum length of the searched keyword before an instant search is triggered. Please use a number bigger than or equal to 3.</Value>
+                      </LocaleResource>
+                    </Children>
+                  </LocaleResource>
+                  <LocaleResource Name="AutocompleteHeight">
+                    <Value>Autocomplete Window Height (pixels)</Value>
+                    <Children>
+                      <LocaleResource Name="Hint">
+                        <Value>The height of the autocomplete window in pixels.</Value>
+                      </LocaleResource>
+                    </Children>
+                  </LocaleResource>
+                </Children>
+              </LocaleResource>
+            </Children>
+          </LocaleResource>
+        </Children>
+      </LocaleResource>
+    </Children>
+  </LocaleResource>
+</Language>

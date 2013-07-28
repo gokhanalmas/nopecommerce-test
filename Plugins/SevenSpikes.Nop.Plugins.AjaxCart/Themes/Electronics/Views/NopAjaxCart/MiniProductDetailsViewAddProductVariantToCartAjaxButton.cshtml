@@ -1,0 +1,10 @@
+﻿@** Copyright 2013 Seven Spikes Ltd. All rights reserved. (http://www.nop-templates.com)
+* http://www.nop-templates.com/t/licensinginfo
+*@
+
+@model SevenSpikes.Nop.Plugins.AjaxCart.Models.AddProductVariantToCartAjaxButtonModel
+
+<div class="buttons">
+    <input type="button" value="@T("ShoppingCart.AddToCart")" class="button-1 add-to-cart-button nopAjaxCartProductVariantAddToCartButton miniProductDetailsViewAddToCartButton" data-productVariantId="@Model.ProductVariantId" />
+</div>
+@Html.Hidden("addProductVariantToCartUrl", Url.Action("AddProductVariantToCartAjax", "NopAjaxCartShoppingCart"))

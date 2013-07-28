@@ -1,0 +1,10 @@
+﻿.search-box,
+.search-box * {
+    direction: rtl;
+}
+.search-box .instant-search-busy {
+    background: url('images/ajax-loader-small.gif') 5px center no-repeat !important;
+}
+.k-animation-container {
+    left: 30px !important;
+}

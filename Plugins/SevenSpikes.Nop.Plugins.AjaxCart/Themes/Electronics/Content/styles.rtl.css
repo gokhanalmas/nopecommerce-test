@@ -1,0 +1,9 @@
+﻿.miniProductDetailsView .product-details-info .overview {
+    text-align: right !important;
+}
+.productAddedToCartWindowImage {
+    float: right !important;
+}
+.productAddedToCartWindowDescription {
+    width: 155px !important;
+}

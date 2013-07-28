@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language Name="English">
+  <LocaleResource Name="SevenSpikes">
+    <Value>Admin</Value>
+    <Children>
+      <LocaleResource Name="Plugins">
+        <Children>
+          <LocaleResource Name="CustomerReminders">
+            <Value>Reminders</Value>
+            <Children>
+              <LocaleResource Name="Admin">
+                <Children>
+                  <LocaleResource Name="Reminder">
+                    <Children>
+                      <LocaleResource Name="Enabled">
+                        <Value>Enabled</Value>
+                        <Children>
+                          <LocaleResource Name="Hint">
+                            <Value>Specifies whether the reminder is enabled or not.</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="Name">
+                        <Value>Name</Value>
+                        <Children>
+                          <LocaleResource Name="Hint">
+                            <Value>The name of the reminder</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="ConditionMetDateLaterThanIntervalType">
+                        <Value>Condition Met Date Later Than</Value>
+                        <Children>
+                          <LocaleResource Name="Hint">
+                            <Value>The condition met date (the time when a product was added to the shopping cart for example) should be later than the specified interval.</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="ConditionMetDateLaterThan">
+                        <Value>Condition Met Date Later Than</Value>
+                        <Children>
+                          <LocaleResource Name="Hint">
+                            <Value>
+                              <Value>The condition met date (the time when a product was added to the shopping cart for example) should be later than the specified interval.</Value>
+                            </Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="ConditionMetDateEarlierThanIntervalType">
+                        <Value>Condition Met Date Earlier Than</Value>
+                        <Children>
+                          <LocaleResource Name="Hint">
+                            <Value>The condition met date (the time when a product was added to the shopping cart for example) should be earlier than the specified interval.</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="ConditionMetDateEarlierThan">
+                        <Value>Condition Met Date Earlier Than</Value>
+                        <Children>
+                          <LocaleResource Name="Hint">
+                            <Value>
+                              <Value>The condition met date (the time when a product was added to the shopping cart for example) should be earlier than the specified interval.</Value>
+                            </Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="IntervalBetweenMessagesType">
+                        <Value>Interval Between Messages In</Value>
+                        <Children>
+                          <LocaleResource Name="Hint">
+                            <Value>Specifies the time interval between messages sent to the customer. This interval can be in Days, Hours, Minutes</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="IntervalBetweenMessages">
+                        <Value>Interval Between Messages</Value>
+                        <Children>
+                          <LocaleResource Name="Hint">
+                            <Value>Specifies the time interval between messages sent to the customer.</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="ReminderRuleId">
+                        <Value>Reminder Rule</Value>
+                        <Children>
+                          <LocaleResource Name="Hint">
+                            <Value>The reminder rule is the condtion that needs to be met for a customer to receive a reminder. For example a customer has place an order but not paid for it or the customer has added products to their shopping cart but not ordered them.</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="NumberOfMessagesToSendPerCustomer">
+                        <Value>Number Of Messages To Send Per Customer</Value>
+                        <Children>
+                          <LocaleResource Name="Hint">
+                            <Value>Specifies how many reminder messages should be sent to the customer.</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="Deleted">
+                        <Value>Deleted</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="AddNew">
+                        <Value>Add new reminder</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="BackToList">
+                        <Value>Back to reminder list</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="SettingsTabTitle">
+                        <Value>Settings</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="MessageTemplateTabTitle">
+                        <Value>Message Template</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="ReminderExcludedCustomerTabTitle">
+                        <Value>Excluded Customers From Reminder</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="SettingsTitle">
+                        <Value>Reminder Settings</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="GeneralSettings">
+                        <Value>General Settings</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="EditReminderDetails">
+                        <Value>Edit Reminder Details</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="Created">
+                        <Value>Reminder successfully created.</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="Edited">
+                        <Value>Reminder successfully edited.</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="ReminderSuccessfullyDeleted">
+                        <Value>Reminder successfully deleted.</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="FieldValidationMessages">
+                        <Children>
+                          <LocaleResource Name="Name">
+                            <Value>Reminder name is required.</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="Interval">
+                            <Value>Reminder interval should be greater than 0.</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="NumberOfMessagesToSendPerCustomer">
+                            <Value>The number of reminders to send should be greater than 0.</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="MessageTemplate">
+                            <Children>
+                              <LocaleResource Name="Name">
+                                <Value>Message template name is required.</Value>
+                              </LocaleResource>
+                              <LocaleResource Name="Subject">
+                                <Value>Message template subject is required.</Value>
+                              </LocaleResource>
+                              <LocaleResource Name="Body">
+                                <Value>Message template body is required.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="ReminderRules">
+                        <Children>
+                          <LocaleResource Name="AbandonedShoppingCartReminder">
+                            <Value>Abandoned Shopping Cart</Value>
+                            <Children>
+                              <LocaleResource Name="Description">
+                                <Value>Selects customers who have added products to their shopping cart but have not ordered them.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="UnpaidOrdersReminder">
+                            <Value>Unpaid Orders Reminder</Value>
+                            <Children>
+                              <LocaleResource Name="Description">
+                                <Value>Selects customers who have placed an order but have not paid for it.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="InactiveCustomersReminder">
+                            <Value>Inactive Customers Reminder</Value>
+                            <Children>
+                              <LocaleResource Name="Description">
+                                <Value>Selects customers who have registered on the web site but have not activated their registration.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="ReminderExcludedCustomer">
+                        <Children>
+                          <LocaleResource Name="CustomerName">
+                            <Value>Customer Name</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="CustomerEmail">
+                            <Value>Customer Email</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="SearchCustomerFirstName">
+                            <Value>First Name</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="SearchCustomerLastName">
+                            <Value>Last Name</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="SearchCustomerEmail">
+                            <Value>Email</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="AddNewCustomer">
+                            <Value>Add a new customer</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="SaveBeforeEdit">
+                            <Value>You need to save the reminder before you can add excluded customers to it.</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                    </Children>
+                  </LocaleResource>
+                  <LocaleResource Name="CustomerReminderMessageRecord">
+                    <Children>
+                      <LocaleResource Name="ReminderMessages">
+                        <Value>
+                          Reminder Messages
+                        </Value>
+                      </LocaleResource>
+                      <LocaleResource Name="CreatedOn">
+                        <Value>Created On</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="CustomerName">
+                        <Value>Customer Name</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="CustomerEmail">
+                        <Value>Customer Email</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="ReminderName">
+                        <Value>Reminder Name</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="FromName">
+                        <Value>From Name</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="EmailSentOn">
+                        <Value>Email Sent On</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="MessageState">
+                        <Value>Message State</Value>
+                        <Children>
+                          <LocaleResource Name="Sent">
+                            <Value>Sent</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="NotSent">
+                            <Value>Not Sent</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="Deleted">
+                            <Value>Deleted</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="SearchStartDate">
+                        <Value>Start Date</Value>
+                        <Children>
+                          <LocaleResource Name="Hint">
+                            <Value>The start date after which a reminder message was scheduled to be sent to the customer.</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="SearchEndDate">
+                        <Value>End Date</Value>
+                        <Children>
+                          <LocaleResource Name="Hint">
+                            <Value>The end date before which a reminder message was scheduled to be sent to the customer.</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="SearchToEmail">
+                        <Value>To Email</Value>
+                        <Children>
+                          <LocaleResource Name="Hint">
+                            <Value>The customer email to which a reminder message was sent.</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="SearchReminderId">
+                        <Value>Reminder</Value>
+                        <Children>
+                          <LocaleResource Name="Hint">
+                            <Value>The reminder for which messages were sent.</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="SearchLoadNotSent">
+                        <Value>Load not sent reminder messages only.</Value>
+                        <Children>
+                          <LocaleResource Name="Hint">
+                            <Value>Search only for reminder messages that have not been sent yet and are still in the system message queue</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="EditMessage">
+                        <Value>Edit Message</Value>
+                      </LocaleResource>
+                    </Children>
+                  </LocaleResource>
+                </Children>
+              </LocaleResource>
+            </Children>
+          </LocaleResource>
+        </Children>
+      </LocaleResource>
+    </Children>
+  </LocaleResource>
+</Language>
