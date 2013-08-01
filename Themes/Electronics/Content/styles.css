@@ -2667,8 +2667,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
     .product-grid .product-item, .featured-product-grid .product-item {
         text-align: center;
-        margin: 10px 7px;
-        width: 150px;
+        width: 230px;
+        height: 340px;
     }
 
         .product-grid .product-item .product-title {
@@ -2701,9 +2701,10 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
     .product-grid .product-item .picture, .featured-product-grid .product-item .picture {
         display: block;
-        width: 150px;
-        height: 150px;
+        width: 225px;
+        height: 225px;
         overflow: hidden;
+        margin-top: 5px;
         text-align: center;
     }
 
@@ -7191,7 +7192,11 @@ pre {
 
 .product-grid .item-box {
     display: inline-block;
-    width: 167px;
+    width: 230px;
+    height: 350px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
     .product-grid .item-box .description {
         display: none;
