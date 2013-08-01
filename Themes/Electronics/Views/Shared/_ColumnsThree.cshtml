@@ -3,8 +3,7 @@
 }
 @using Nop.Core.Infrastructure;
 @using Nop.Services.Configuration;
-@{
-    
+@{ 
     //current category ID
     int currentCategoryId = 0;
     if (Url.RequestContext.RouteData.Values["controller"].ToString().Equals("catalog", StringComparison.InvariantCultureIgnoreCase) &&

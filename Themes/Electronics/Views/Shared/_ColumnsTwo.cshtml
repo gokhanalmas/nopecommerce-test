@@ -21,7 +21,6 @@
         currentManufacturerId = Convert.ToInt32(Url.RequestContext.RouteData.Values["manufacturerId"].ToString());
     }
 
-
     //current product ID
     int currentProductId = 0;
     if (Url.RequestContext.RouteData.Values["controller"].ToString().Equals("catalog", StringComparison.InvariantCultureIgnoreCase) &&
@@ -34,6 +33,10 @@
 
     MvcHtmlString filtersHtml = MvcHtmlString.Empty;
     filtersHtml = Html.Widget("left_side_column_after_category_navigation");
+}
+@if (IsSectionDefined("MainSlider"))
+{
+    @RenderSection("MainSlider") 
 }
 <div class="master-wrapper-side-2">
     @if (IsSectionDefined("left"))
