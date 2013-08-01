@@ -26,6 +26,7 @@ div.k-window-content {
     margin: 0;
     overflow: auto;
     padding: 5px 10px 10px;
+    margin-left: -38px;
 }
 
 .nopAjaxFilters7Spikes .block .title
