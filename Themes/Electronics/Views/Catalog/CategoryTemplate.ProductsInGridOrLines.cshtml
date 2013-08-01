@@ -47,30 +47,6 @@
 
     @Html.Widget("categorydetails_before_subcategories")
 
-    @*subcategories*@
-    @if (Model.SubCategories.Count > 0)
-    {
-        <div class="sub-category-grid">
-            <!--grid-header-->
-            @(Html.DataList7Spikes<CategoryModel.SubCategoryModel>(Model.SubCategories, 3,
-            @<div class="item-box">
-                <div class="sub-category-item">
-                    <h2 class="category-title">
-                        <a href="@Url.RouteUrl("Category", new { SeName = item.SeName })" title="@item.PictureModel.Title">
-                            @item.Name</a>
-                    </h2>
-                    <div class="picture">
-                        <a href="@Url.RouteUrl("Category", new { SeName = item.SeName })" title="@item.PictureModel.Title">
-                            <img alt="@item.PictureModel.AlternateText" src="@item.PictureModel.ImageUrl"
-                                    title="@item.PictureModel.Title" /></a>
-                    </div>
-                </div>
-            </div>
-        ))
-        </div>
-        <div class="clear">
-        </div>
-    }
     <div class="category-products">
         <div class="product-pager-and-sorter-and-view-options-7Spikes">
 
