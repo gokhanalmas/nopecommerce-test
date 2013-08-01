@@ -3,16 +3,3 @@ Shipping.FixedRate
 Tax.FixedRate
 Widgets.NivoSlider
 ExternalAuth.Facebook
-SevenSpikes.Nop.AjaxFilters
-SevenSpikes.Nop.Plugins.AjaxCart
-SevenSpikes.Nop.Plugins.AnywhereSliders
-SevenSpikes.Nop.Plugins.CloudZoom
-SevenSpikes.Nop.Plugins.CustomerReminders
-SevenSpikes.Nop.Plugins.InstantSearch
-SevenSpikes.Nop.Plugins.JCarousel
-SevenSpikes.Nop.Plugins.MegaMenu
-SevenSpikes.Nop.Plugins.NopQuickTabs
-SevenSpikes.Nop.Plugins.QuickView
-SevenSpikes.Nop.Plugins.SmartSEO
-SevenSpikes.Theme.Electronics
-Payments.PayPalStandard
