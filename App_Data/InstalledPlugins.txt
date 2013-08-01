@@ -3,3 +3,4 @@ Shipping.FixedRate
 Tax.FixedRate
 Widgets.NivoSlider
 ExternalAuth.Facebook
+Payments.PayPalStandard
