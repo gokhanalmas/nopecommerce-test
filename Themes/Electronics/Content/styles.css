@@ -1319,8 +1319,8 @@ ul.languagelist {
     width: 220px;
     margin: 0 0 8px;
     line-height: 1.35;
-    border: 1px solid #d8d8d8;
-    border-radius: 5px;
+/*    border: 1px solid #d8d8d8;*/
+/*    border-radius: 5px;*/
 }
 
     .block .title {
@@ -2392,11 +2392,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 
 .main-content {
-    background: transparent url('images/main_border_top.png') repeat-x;
     padding: 6px 6px 1px;
     position: relative;
-    border: 1px solid #d8d8d8;
-    border-radius: 5px;
 }
 
     .main-content h1 {

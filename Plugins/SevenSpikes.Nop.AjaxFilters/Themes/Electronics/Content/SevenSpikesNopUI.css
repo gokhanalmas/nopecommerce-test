@@ -21,11 +21,7 @@ div.k-window-content {
 
 .nopAjaxFilters7Spikes .block .filtersGroupPanel
 {   
-    border-left: 1px solid #E5E5E5;
-    border-right: 1px solid #E5E5E5;
-    border-bottom: 1px solid #E5E5E5;
     font-size: 12px;
-    font-weight: bold;
     line-height: 18px;
     margin: 0;
     overflow: auto;
@@ -40,16 +36,14 @@ div.k-window-content {
 .nopAjaxFilters7Spikes .filtersTitlePanel
 {
 	height: 39px;
-    background: url("images/block_topbg.png") repeat-x scroll 0 0 transparent;
-    color: #000000;
-    font-size: 1.1em;
-    font-weight: bold;
+	background-color: #0969d5;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
 	margin-bottom: 8px;
-    padding: 0 10px;
-    text-transform: uppercase;
+  padding: 0 10px;
+  text-transform: uppercase;
 	line-height: 39px;
-	border: 1px solid #d8d8d8;
-	border-radius: 5px;
 	overflow: hidden;
 }
 
