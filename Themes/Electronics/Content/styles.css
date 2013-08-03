@@ -7193,9 +7193,12 @@ pre {
     display: inline-block;
     width: 230px;
     height: 350px;
-    border: 1px solid;
+    border: 1px solid #d3d3d3;
     margin-bottom: 10px;
     margin-left: 10px;
+}
+.product-grid .item-box:hover {
+  border: 1px solid #fff;
 }
     .product-grid .item-box .description {
         display: none;
