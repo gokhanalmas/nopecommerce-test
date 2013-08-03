@@ -13,7 +13,7 @@
     <li><a href="#">@T("SevenSpikes.MegaMenu.Admin.Settings.MenuItemNameValue")</a>
         <div class="dropdown categories fullWidth">
             <div class="row-wrapper">
-                @(Html.DataTable<SevenSpikes.Nop.Plugins.MegaMenu.Models.MegaMenuCategoryModel>(Model.CategoriesModels, 4, "row", "box",
+                @(Html.DataTable<SevenSpikes.Nop.Plugins.MegaMenu.Models.MegaMenuCategoryModel>(Model.CategoriesModels, 3, "row", "box",
                     @<text>
                 <div class="title">
                     <strong>
@@ -58,7 +58,7 @@
         @if (category.SubCategories.Count > 0)
         {
             <div class="dropdown categories fullWidth">
-                @(Html.DataTable<SevenSpikes.Nop.Plugins.MegaMenu.Models.MegaMenuCategoryModel>(category.SubCategories, 4, "row", "box",
+                @(Html.DataTable<SevenSpikes.Nop.Plugins.MegaMenu.Models.MegaMenuCategoryModel>(category.SubCategories, 3, "row", "box",
                             @<text>
                 <div class="title">
                     <strong>
