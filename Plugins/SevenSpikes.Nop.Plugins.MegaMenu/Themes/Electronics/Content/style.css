@@ -94,7 +94,7 @@
 
 .mega-menu .dropdown.fullWidth {
 	left: 0;
-	width: 750px;
+	width: 540px;
   margin-left: 200px;
 /*  border-radius: 5px;*/
 }
@@ -127,7 +127,7 @@
 }
 .mega-menu .title a 
 {
-	color: #7a9b06;
+	color: #000;
 }
 .mega-menu .title a:hover 
 {
@@ -155,7 +155,7 @@
 .mega-menu .row 
 {
     display: table;
-    width: 100%;
+    width: 540px;
     border-spacing: 10px 5px;
     overflow: hidden;
 }
