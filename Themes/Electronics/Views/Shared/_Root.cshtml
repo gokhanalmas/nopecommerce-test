@@ -31,18 +31,6 @@
         </div>
         <div class="clear">
         </div>
-        <!--header-->
-        @{
-            var menu = @Html.Widget("theme_header_menu");
-        }
-        @if (MvcHtmlString.IsNullOrEmpty(menu))
-        {
-            <div class="menu">
-                @Html.Action("Menu", "Common")
-            </div>
-        }
-        else
-        { @menu }
         <div class="top-bar">
             <div class="header-languageselector">
                 @Html.Action("LanguageSelector", "Common")
