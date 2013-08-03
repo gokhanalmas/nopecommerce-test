@@ -6,7 +6,7 @@
 /********** START BUTTON *********/
 
 .quick-view-button {
-    top: 180px;
+    top: 210px;
     z-index:1001;
     position: absolute;
     display: none;
