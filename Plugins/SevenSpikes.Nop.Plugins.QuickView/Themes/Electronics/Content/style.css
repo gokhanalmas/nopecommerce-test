@@ -2,22 +2,11 @@
 * Copyright 2013 Seven Spikes Ltd. All rights reserved. (http://www.nop-templates.com)
 * http://www.nop-templates.com/t/licensinginfo
 */
-
-
-
-
-
-
 /*********************************** ELECTRONICS *********************************/
-
-
-
-
-
-
 /********** START BUTTON *********/
 
 .quick-view-button {
+    top: 180px;
     z-index:1001;
     position: absolute;
     display: none;
@@ -25,7 +14,7 @@
     text-align: center;
     cursor: pointer;
     display: inline-block;
-    border: 1px solid #ccdb20;
+    border: 1px solid #198ce7;
     border-radius: 5px;
     padding: 0 12px;
     background: #198ce7;
