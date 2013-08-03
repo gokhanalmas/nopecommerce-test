@@ -372,7 +372,7 @@ a.logo {
 
         .header-links a.account {
             padding-left: 0 !important;
-            color: #7A9B06;
+            color: #f10a2f;
         }
 
     .header-links span.impersonate {
@@ -449,7 +449,7 @@ ul.top-menu {
 
 
 .top-bar {
-    background: url('images/search_bg.png') repeat-x;
+    background-color: #004e77;
     height: 37px;
     width: 980px;
     margin-bottom: 8px;
@@ -499,7 +499,7 @@ ul.top-menu {
 }
 
 .search-box {
-    float: right;
+    float: left;
     height: 25px;
     margin-top: 7px;
 }
@@ -6830,12 +6830,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     margin: 0;
     border: 1px solid #fff;
     color: #333;
-    background: #eee;
     font-size: 11px;
 }
 
     .mini-shopping-cart a {
-        color: #7A9B06;
+        color: #000;
         font-weight: 700;
         text-decoration: none;
     }
@@ -6860,7 +6859,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
             .mini-shopping-cart .items table td {
                 padding: 10px 5px;
                 vertical-align: top;
-                background: #f6f6f6;
             }
 
         .mini-shopping-cart .items .item {
