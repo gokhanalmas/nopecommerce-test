@@ -13,6 +13,7 @@
 {
   float:left;
   width:200px;
+  margin-top: 50px;
 }
 
 .mega-menu 
@@ -79,19 +80,20 @@
 	position:absolute;
 	background: #fff url('images/header.png') top repeat-x;
 	overflow:hidden;
-	margin-top: 0px;
+	margin-top: -46px;
 	padding:15px;
 	text-align: left;
 	border-width: 1px;
 	border-style: solid;
 	border-color: #fff #ddd #ccc;
-	border-radius: 0 0 5px 5px;
+/*  border-radius: 0 0 5px 5px;
     box-shadow: 0 1px 0 #bbb;
+*/
 }
 
 .mega-menu .dropdown.fullWidth {
 	left: 0;
-	width: 950px;
+	width: 750px;
 	margin-left: -1px;
 	border-radius: 5px;
 }
