@@ -38,7 +38,7 @@
 {
     @RenderSection("MainSlider") 
 }
-@Html.Widget("theme_header_menu")
+
 <div class="master-wrapper-side-2">
     @if (IsSectionDefined("left"))
     {
@@ -73,6 +73,9 @@
     }
 </div>
 <div class="master-wrapper-center-2">
+@Html.Widget("theme_header_menu")
+<div class="clear">
+</div>
     <div class="master-wrapper-cph-2">
         <div class="boxtitle">
             <div>
