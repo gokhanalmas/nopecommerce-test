@@ -2695,7 +2695,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
         .product-grid .product-item .product-title a:hover, .featured-product-grid .product-item .product-title a:hover {
             text-decoration: none;
-            color: #7A9B06;
+            color: #0082e9;
         }
 
     .product-grid .product-item .picture, .featured-product-grid .product-item .picture {
@@ -2727,13 +2727,13 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     }
 
         .product-grid .product-item .prices .product-price, .featured-product-grid .product-item .prices .product-price {
-            color: #396F00;
-            font-size: 14px;
+            color: #f0575a;
+            font-size: 18px;
             font-weight: bold;
         }
 
         .product-grid .product-item .prices .old-product-price, .featured-product-grid .product-item .prices .old-product-price {
-            color: Red;
+            color: #000;
             text-decoration: line-through;
             font-size: 12px;
         }
