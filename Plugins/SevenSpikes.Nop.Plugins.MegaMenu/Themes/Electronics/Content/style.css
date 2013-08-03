@@ -9,12 +9,18 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+.mega-menu-holder
+{
+  float:left;
+  width:200px;
+}
+
 .mega-menu 
 {
-    position: relative;
+  position: relative;
 	z-index: 1001;
-    height: 43px;
-	background: url('images/nav_bg.png') repeat-x;
+  height: 43px;
+/*  background: url('images/nav_bg.png') repeat-x;*/
 	margin: 0 0 12px;
 	padding: 0;
 	border: 1px solid #d8d8d8;
