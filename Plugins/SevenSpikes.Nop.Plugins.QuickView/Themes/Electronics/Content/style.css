@@ -28,14 +28,14 @@
     border: 1px solid #ccdb20;
     border-radius: 5px;
     padding: 0 12px;
-    background: #ccdb20;
-    background: -moz-linear-gradient(top,  #ccdb20 0%, #99b650 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ccdb20), color-stop(100%,#99b650));
-    background: -webkit-linear-gradient(top,  #ccdb20 0%,#99b650 100%);
-    background: -o-linear-gradient(top,  #ccdb20 0%,#99b650 100%);
-    background: -ms-linear-gradient(top,  #ccdb20 0%,#99b650 100%);
-    background: linear-gradient(to bottom,  #ccdb20 0%,#99b650 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccdb20', endColorstr='#99b650',GradientType=0 );
+    background: #198ce7;
+    background: -moz-linear-gradient(top,  #ccdb20 0%, #198ce7 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ccdb20), color-stop(100%,#198ce7));
+    background: -webkit-linear-gradient(top,  #ccdb20 0%,#198ce7 100%);
+    background: -o-linear-gradient(top,  #ccdb20 0%,#198ce7 100%);
+    background: -ms-linear-gradient(top,  #ccdb20 0%,#198ce7 100%);
+    background: linear-gradient(to bottom,  #ccdb20 0%,#198ce7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccdb20', endColorstr='#198ce7',GradientType=0 );
 }
 .product-grid .quick-view-button {
     left: 50%;
@@ -48,14 +48,14 @@
     margin-left: -43px;
 }
 .quick-view-button:hover {
-    background: #99b650;
-    background: -moz-linear-gradient(top,  #99b650 0%, #ccdb20 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#99b650), color-stop(100%,#ccdb20));
-    background: -webkit-linear-gradient(top,  #99b650 0%,#ccdb20 100%);
-    background: -o-linear-gradient(top,  #99b650 0%,#ccdb20 100%);
-    background: -ms-linear-gradient(top,  #99b650 0%,#ccdb20 100%);
-    background: linear-gradient(to bottom,  #99b650 0%,#ccdb20 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99b650', endColorstr='#ccdb20',GradientType=0 );
+    background: #198ce7;
+    background: -moz-linear-gradient(top,  #198ce7 0%, #ccdb20 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#198ce7), color-stop(100%,#ccdb20));
+    background: -webkit-linear-gradient(top,  #198ce7 0%,#ccdb20 100%);
+    background: -o-linear-gradient(top,  #198ce7 0%,#ccdb20 100%);
+    background: -ms-linear-gradient(top,  #198ce7 0%,#ccdb20 100%);
+    background: linear-gradient(to bottom,  #198ce7 0%,#ccdb20 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#198ce7', endColorstr='#ccdb20',GradientType=0 );
 }
 
 .quick-view-button a {
@@ -63,7 +63,6 @@
     height: 100%;
     text-align: center;
     color: #fff;
-    text-shadow: 1px 1px 1px #aa99A8;
     font: bold 11px/22px arial, helvetica, sans-serif;
     cursor: pointer;
 }
