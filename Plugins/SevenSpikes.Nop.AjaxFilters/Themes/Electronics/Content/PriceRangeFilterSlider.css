@@ -6,7 +6,7 @@
 .priceRangeFilterPanel7Spikes .filtersGroupPanel
 {
     font-size: 11px;
-    margin: 0 0 0 5px;
+    margin: 0 0 0 5px !important;
     padding: 5px 10px 10px;
 }
 
