@@ -1,0 +1,8 @@
+﻿Group: Misc
+FriendlyName: Addon for Products (add css class)
+SystemName: FoxNetSoft.Plugin.Misc.ProductAddon
+Version: 1.05
+SupportedVersions: 2.60
+Author: FoxNetSoft
+DisplayOrder: 1
+FileName: FoxNetSoft.Plugin.Misc.ProductAddon.dll         

@@ -1,0 +1,47 @@
+@{
+    Layout = "";
+    Html.AddCssFileParts(@Url.Content("~/Plugins/FoxNetSoft.ProductAddon/Styles/styles.css"));
+}
+<script type="text/javascript">
+    $(document).ready(function () {
+        var productIds = [];
+        var linksarr = [];
+        var links = $(".picture a", $(".small-product-item, .product-item"));
+        for (var i = 0; i < links.length; i++) {
+            //alert( links[i].href );
+            var strurl = links[i].href;
+            var jposnumn = strurl.indexOf("/p/") + 3;
+            var prodnum = parseInt(strurl.substring(jposnumn, strurl.indexOf("/", jposnumn)));
+            if (isNaN(prodnum) == false) {
+                productIds[productIds.length] = prodnum;
+                linksarr[linksarr.length] = links[i];
+            }
+            //alert(prodnum);
+        }
+
+        if (productIds.length > 0) {
+            $.ajax({
+                cache: false,
+                url: '@Url.Action("ProductListAddon", "ProductAddon")',
+                dataType: 'json',
+                type: 'POST',
+                traditional: true,
+                data: { productIds: productIds },
+                success: function (data) {
+                    //alert(data);
+                    $(data).each(function (index, idata) {
+                        for (var i = 0; i < productIds.length; i++) {
+                            if (productIds[i] == idata.ProductId) {
+                                $(linksarr[i]).parent().parent().prepend('<div class="item-boxaddon ' + idata.CssClassName + '"></div>')
+                            }
+                        }
+                    });
+                },
+                error: function () {
+                    // alert("Error!");
+                }
+            });
+        }
+
+    });
+</script>
