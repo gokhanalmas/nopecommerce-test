@@ -637,7 +637,7 @@ ul.top-menu {
 .master-wrapper-center-3 {
     float: left;
     margin: 0 0 20px;
-    width: 522px;
+    width: 580px;
     padding: 0 0 1px;
     position: relative;
     z-index: 0;
@@ -650,10 +650,11 @@ ul.top-menu {
 
 .master-wrapper-rightside-3 {
     float: right;
-    width: 222px;
+    width: 170px;
     padding: 0 0 1px;
     position: relative;
     z-index: 0;
+    margin-top:7px;
 }
 
 .master-wrapper-content-footer {
