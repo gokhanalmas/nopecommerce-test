@@ -1,8 +1,0 @@
-﻿@{
-    Layout = "";
-}
-@model CarouselModel
-@using FoxNetSoft.Plugin.Misc.ProductAddon.Models
-<div>
-@Html.Action("JCarousel", "JCarousel", new {carouselName = Model.CarouselName, productModels = Model.CustomProductModels})
-</div>
