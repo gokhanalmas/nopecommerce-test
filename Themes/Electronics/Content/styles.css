@@ -4629,16 +4629,16 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     overflow: hidden;
 }
 .add-to-cart .add-to-cart-button {
-    background: #ccdb20;
-    background: -moz-linear-gradient(top,  #ccdb20 0%, #99b650 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ccdb20), color-stop(100%,#99b650));
-    background: -webkit-linear-gradient(top,  #ccdb20 0%,#99b650 100%);
-    background: -o-linear-gradient(top,  #ccdb20 0%,#99b650 100%);
-    background: -ms-linear-gradient(top,  #ccdb20 0%,#99b650 100%);
-    background: linear-gradient(to bottom,  #ccdb20 0%,#99b650 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccdb20', endColorstr='#99b650',GradientType=0 );
+    background: #4F79BE;
+    background: -moz-linear-gradient(top,  #4F79BE 0%, #4F79BE 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4F79BE), color-stop(100%,#4F79BE));
+    background: -webkit-linear-gradient(top,  #4F79BE 0%,#4F79BE 100%);
+    background: -o-linear-gradient(top,  #4F79BE 0%,#4F79BE 100%);
+    background: -ms-linear-gradient(top,  #4F79BE 0%,#4F79BE 100%);
+    background: linear-gradient(to bottom,  #4F79BE 0%,#4F79BE 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4F79BE', endColorstr='#4F79BE',GradientType=0 );
     color: #fff;
-    text-shadow: 1px 1px 0 #7a9b06;
+    text-shadow: 1px 1px 0 #4F79BE;
     font-size: 14px;
     font-weight: bold;
     float: none;
