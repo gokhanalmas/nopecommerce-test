@@ -39,6 +39,8 @@
     @RenderSection("MainSlider") 
 }
 <div class="master-wrapper-leftside-3">
+@Html.Widget("theme_header_menu")
+
     @if (IsSectionDefined("left"))
     {
         @RenderSection("left")
