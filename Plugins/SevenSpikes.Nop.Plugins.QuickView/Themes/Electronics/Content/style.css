@@ -69,13 +69,6 @@
     z-index: 100;
     padding: 10px 30px !important;
     background: #ffffff;
-    background: -moz-radial-gradient(center, ellipse cover, #ffffff 36%, #e5e5e5 100%); 
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(36%,#ffffff), color-stop(100%,#e5e5e5)); 
-    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 36%,#e5e5e5 100%); 
-    background: -o-radial-gradient(center, ellipse cover, #ffffff 36%,#e5e5e5 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover, #ffffff 36%,#e5e5e5 100%); 
-    background: radial-gradient(ellipse at center, #ffffff 36%,#e5e5e5 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
 }
 .quickViewWindow .product-essentials {
 	overflow: hidden;
