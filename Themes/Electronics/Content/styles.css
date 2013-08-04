@@ -2486,8 +2486,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
     .home-page-product-grid .product-item {
         text-align: center;
-        margin: 10px 8px;
-        width: 150px;
+/*        margin: 10px 8px;*/
+  /*      width: 150px;*/
     }
 
         .home-page-product-grid .item .product-title {
@@ -7191,7 +7191,7 @@ pre {
     display: inline-block;
     width: 230px;
     height: 350px;
-/*    border: 1px solid #d3d3d3;*/
+    border: 1px solid #fff;
     margin-bottom: 10px;
     margin-left: 10px;
 }
