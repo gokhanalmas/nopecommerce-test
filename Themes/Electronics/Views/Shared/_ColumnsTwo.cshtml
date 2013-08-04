@@ -41,7 +41,7 @@
 
 <div class="master-wrapper-side-2">
 
-if (Url.RouteUrl("Product", new { SeName = Model.SeName }, this.Request.Url.Scheme))
+@if (Url.RouteUrl("Product", new { SeName = Model.SeName }, this.Request.Url.Scheme))
 {
   @Html.Widget("theme_header_menu")
 }
