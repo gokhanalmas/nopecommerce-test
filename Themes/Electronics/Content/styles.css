@@ -2417,7 +2417,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .home-page-product-grid {
     width: 983px;
-    margin-left: -237px;
+    margin-left: -237px !important;
 }
 
     .home-page-product-grid .main-border-left {
