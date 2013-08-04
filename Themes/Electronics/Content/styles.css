@@ -4649,14 +4649,14 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     padding: 6px 18px;
 }
 .add-to-cart .add-to-cart-button:hover {
-    background: #99b650;
-    background: -moz-linear-gradient(top,  #99b650 0%, #ccdb20 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#99b650), color-stop(100%,#ccdb20));
-    background: -webkit-linear-gradient(top,  #99b650 0%,#ccdb20 100%);
-    background: -o-linear-gradient(top,  #99b650 0%,#ccdb20 100%);
-    background: -ms-linear-gradient(top,  #99b650 0%,#ccdb20 100%);
-    background: linear-gradient(to bottom,  #99b650 0%,#ccdb20 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99b650', endColorstr='#ccdb20',GradientType=0 );
+    background: #4F79BE;
+    background: -moz-linear-gradient(top,  #4F79BE 0%, #4F79BE 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4F79BE), color-stop(100%,#4F79BE));
+    background: -webkit-linear-gradient(top,  #4F79BE 0%,#4F79BE 100%);
+    background: -o-linear-gradient(top,  #4F79BE 0%,#4F79BE 100%);
+    background: -ms-linear-gradient(top,  #4F79BE 0%,#4F79BE 100%);
+    background: linear-gradient(to bottom,  #4F79BE 0%,#4F79BE 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4F79BE', endColorstr='#4F79BE',GradientType=0 );
 }
 .add-to-cart .qty-input {
     width: 24px !important;

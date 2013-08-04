@@ -133,8 +133,7 @@
     border: none !important;
     display: block;
     padding-left: 15px;
-    color: #000;
-    text-shadow: 1px 1px 0 #ddd;
+    color: #F0575A;
     font-size: 14px;
 	text-align: left;
 }
@@ -576,7 +575,7 @@ div.k-window-content {
     }
     .quickViewWindow .overview #accordion .prices .product-price {
         font-size: 12px;
-        color: #396F00;
+        color: #F0575A;
     }
     .quickViewWindow .overview #accordion .prices .old-product-price {
         color: #5C5B5B;
