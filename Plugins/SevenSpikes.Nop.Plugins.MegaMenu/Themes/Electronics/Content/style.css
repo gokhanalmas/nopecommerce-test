@@ -13,13 +13,12 @@
 {
   float:left;
   width:200px;
-  z-index: 9999;
 }
 
 .mega-menu 
 {
   position: relative;
-	z-index: 9999;
+	z-index: 1001;
   height: 43px;
 /*  background: url('images/nav_bg.png') repeat-x;*/
 	margin: 0 0 12px;
