@@ -631,7 +631,7 @@ ul.top-menu {
     margin: 0 8px 20px 0;
     padding: 0 0 1px;
     position: relative;
-    z-index: 0;
+    z-index: 1001;
 }
 
 .master-wrapper-center-3 {
