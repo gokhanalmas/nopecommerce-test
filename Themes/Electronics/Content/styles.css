@@ -640,7 +640,7 @@ ul.top-menu {
     width: 580px;
     padding: 0 0 1px;
     position: relative;
-    z-index: 1001;
+    z-index: 0;
 }
 
 .master-wrapper-cph-3 {
@@ -653,7 +653,7 @@ ul.top-menu {
     width: 170px;
     padding: 0 0 1px;
     position: relative;
-    z-index: 1001;
+    z-index: 0;
     margin-top:7px;
 }
 
