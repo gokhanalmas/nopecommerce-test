@@ -60,6 +60,7 @@
 
 .mega-menu > li:hover > a {
 	color: #de3455;
+	background-color: #004E77;
 }
 
 /*.mega-menu li .drop {
@@ -115,7 +116,7 @@
 	padding: 5px 0 8px;
     font: normal bold 12px Arial, Helvetica, sans-serif;
 	color: #7a9b06;
-	text-shadow: 1px 1px 0 #fff;
+	
 	text-transform: uppercase;
 /*    border-bottom: 1px dotted #789;*/
 }
