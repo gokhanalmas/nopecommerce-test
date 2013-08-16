@@ -65,12 +65,13 @@ Supports Thumbs: true
 }
 
 .theme-navigation-inside a.nivo-nextNav {
-    background-position: -30px 0;
+    background-position: -36px 0;
     right: 15px;
 }
 
 .theme-navigation-inside a.nivo-prevNav {
     left: 15px;
+	background-position:4px;
 }
 
 .theme-navigation-inside .nivo-caption {
