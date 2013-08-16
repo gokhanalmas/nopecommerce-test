@@ -1460,7 +1460,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     padding: 13px 36px;
     font: bold 11px/23px Tahoma, Verdana, Arial, sans-serif;
     color: #fff;
-	text-indent:-33px
+	text-indent:-33px;
     text-align: center;
     cursor: pointer;
     border: 1px solid #FFFFFF;
