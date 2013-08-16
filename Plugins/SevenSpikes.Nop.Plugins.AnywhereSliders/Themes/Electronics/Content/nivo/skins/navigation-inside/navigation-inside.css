@@ -48,8 +48,8 @@ Supports Thumbs: true
 
 .theme-navigation-inside .nivo-directionNav a {
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background: url(arrows.png) no-repeat;
     text-indent: -9999px;
     border: 0;
