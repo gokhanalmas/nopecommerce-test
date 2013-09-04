@@ -449,7 +449,7 @@ ul.top-menu {
 
 
 .top-bar {
-    background-color: #2B2B2B;
+    background-color: #004e77;
     height: 37px;
     width: 980px;
     margin-bottom: 8px;
@@ -511,6 +511,8 @@ ul.top-menu {
 .search-box ul li
 {
     float: left;
+	margin-right:-42px;
+	
 }
 
 /*IE 7*/
@@ -519,15 +521,15 @@ ul.top-menu {
 }
 
 .search-box-text {
-    background: url('images/searchbg.png') repeat-x !important;
-    width: 230px !important;
-    height: 20px !important;
+    //*background: url('images/searchbg.png') repeat-x !important;*//
+    width: 530px !important;
+    height: 21px !important;
     margin-right: 5px !important;
-    margin-left: 80px !important;
+    margin-left: 200px !important;
     float: left !important;
     display: inline !important;
-    border: 1px solid #e3e3e3;
-    border-radius: 5px;
+    border: 1px solid #000000;
+    //*border-radius: 5px;*//
 }
 
     .search-box-text input {
