@@ -511,7 +511,7 @@ ul.top-menu {
 .search-box ul li
 {
     float: left;
-	margin-right:-42px;
+	margin-right:-47px;
 	
 }
 
@@ -562,10 +562,12 @@ ul.top-menu {
 
     cursor: pointer;
     border: 0;
-    height: 25px;
-    width: 41px;
+    height: 21px;
+    width: 38px;
     font: normal bold 1px Arial, Helvetica, sans-serif;
     color: #fff;
+	margin-top:2px;
+	
     //*border-radius: 5px;*//
 }
 
