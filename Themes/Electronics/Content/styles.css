@@ -309,8 +309,8 @@ big {
     position: relative;
     min-height: 85px;
     padding: 15px 0;
-	background:url('images/header_Krg.png') no-repeat scroll left center transparent;
-	background-position:300px;
+	//*background:url('images/header_Krg.png') no-repeat scroll left center transparent;
+	background-position:300px;*//
 }
 
     .header .icon {
