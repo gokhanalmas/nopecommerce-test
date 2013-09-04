@@ -562,11 +562,11 @@ ul.top-menu {
 
     cursor: pointer;
     border: 0;
-    height: 21px;
+    height: 24px;
     width: 38px;
     font: normal bold 1px Arial, Helvetica, sans-serif;
     color: #fff;
-	margin-top:2px;
+	margin-top: 1px;
 	
     //*border-radius: 5px;*//
 }
