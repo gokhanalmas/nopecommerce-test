@@ -1454,16 +1454,18 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .buttons input, .select-button input, .options input, .common-buttons input, .buttons button, .checkout-buttons input {
     /*float: right;*/
-    /*height: 25px;*/
-    
-	background: transparent url('images/bkg_btn.png') no-repeat;
-    padding: 13px 36px;
+    height: 25px;
+    background: transparent url('images/bkg_btn.png') top repeat-x;
+    padding: 0px 12px;
     font: bold 11px/23px Tahoma, Verdana, Arial, sans-serif;
     color: #fff;
+<<<<<<< HEAD
 	text-indent:-33px;
+=======
+>>>>>>> parent of e367bc1... Buton Görseli Ve CSS Üstünde Değişiklik
     text-align: center;
     cursor: pointer;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #d8d8d8;
     border-radius: 5px;
 }
 
@@ -1476,7 +1478,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     text-shadow: 1px 1px 0 #fff;
     text-align: center;
     cursor: pointer;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #d8d8d8;
     border-radius: 5px;
     line-height: 21px;
 }
