@@ -555,18 +555,20 @@ ul.top-menu {
 
 
 .search-box-button {
-    background: url('images/btn_go.png') top repeat-x;
+    background: url('images/btn_go.png');
+	background-repeat:no-repeat;
+
     cursor: pointer;
     border: 0;
     height: 25px;
-    width: 75px;
-    font: normal bold 14px Arial, Helvetica, sans-serif;
+    width: 41px;
+    font: normal bold 1px Arial, Helvetica, sans-serif;
     color: #fff;
-    border-radius: 5px;
+    //*border-radius: 5px;*//
 }
 
     .search-box-button:hover {
-        background-position: bottom;
+       //* background-position: bottom;*//
     }
 
 
@@ -975,7 +977,7 @@ checkbox, input, radio, select {
     font: 12px/15px Arial, Helvetica, sans-serif;
     vertical-align: middle;
     color: #000000;
-    border-radius: 3px;
+    //*border-radius: 3px;*//
     border: 1px solid #D8D8D8;
 }
     input[type="text"], input[type="password"] {
