@@ -41,7 +41,7 @@
 
 .mega-menu > li:first-child 
 {
-	margin-left: 4px;
+	margin-left: -1px;
 }
 
 .mega-menu > li > a 
