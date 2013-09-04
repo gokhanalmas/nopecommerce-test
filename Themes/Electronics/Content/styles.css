@@ -454,7 +454,7 @@ ul.top-menu {
     width: 980px;
     margin-bottom: 8px;
     border: 1px solid #d8d8d8;
-    border-radius: 5px;
+    //*border-radius: 5px;*//
     position: relative;
     z-index: 0;
 }
