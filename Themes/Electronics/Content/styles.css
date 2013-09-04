@@ -386,10 +386,12 @@ a.logo {
 
 .header-shopping-bag {
     background: url('images/cart_icon.gif') no-repeat scroll left center transparent;
-    position: absolute;
+    //*height: 65px;*//
+	height: 65px;
+	position: absolute;
     top: 67px;
     right: 4px;
-    padding-left: 40px;
+    padding-left: 68px;
 }
 
     .header-shopping-bag a {
