@@ -984,7 +984,7 @@ checkbox, input, radio, select {
 }
     input[type="text"], input[type="password"] {
         padding: 2px 0 2px 2px;
-        width: 197px;
+        width: 529px;
     }
 .productQuantityTextBox {
     width: 40px !important;
