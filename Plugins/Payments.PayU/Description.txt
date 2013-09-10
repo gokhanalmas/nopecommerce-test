@@ -1,8 +1,0 @@
-﻿Group: Payment methods
-FriendlyName: Sanal Pos
-SystemName: Payments.PayU
-Version: 1.0
-SupportedVersions: 2.80
-Author: Hakan Altınbaş
-DisplayOrder: 1
-FileName: Nop.Plugin.Payments.PayU.dll
