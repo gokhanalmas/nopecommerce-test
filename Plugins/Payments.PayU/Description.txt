@@ -1,0 +1,8 @@
+﻿Group: Payment methods
+FriendlyName: Kredi Kartı
+SystemName: Payments.PayU
+Version: 1.11
+SupportedVersions: 2.80
+Author: Codeart Software
+DisplayOrder: 1
+FileName: Nop.Plugin.Payments.PayU.dll
