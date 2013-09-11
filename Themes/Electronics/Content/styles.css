@@ -339,6 +339,10 @@ big {
     float: left;
     margin: 24px 0 0 5px;
 }
+header-link{
+	width:212px;
+	height:18px;
+}
 
 a.logo {
     display: block;
