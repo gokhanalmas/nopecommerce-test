@@ -2670,7 +2670,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 
 .product-grid .title {
-	background: url(images/yeni-gelenler-gorsel.jpg) bottom 0 no-repeat;
+	background: url('images/yeni-gelenler-gorsel.jpg') bottom 0 no-repeat;
     font-size: 14px;
     font-weight: bold;
 	padding-bottom: 13px;
