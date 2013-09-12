@@ -2671,9 +2671,13 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .product-grid .title {
 	background: url(images/yeni-gelenler-gorsel.jpg) no-repeat bottom center;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: bold;
-	padding-bottom: 13px;
+	padding-bottom: 9px;
+	font-family:georgia;
+	font-style:italic;
+	
+
 }
 
     .product-grid td, .featured-product-grid td {
