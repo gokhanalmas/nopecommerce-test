@@ -284,6 +284,9 @@ div.k-window-content {
 .filtersDropDown ul
 {
     top: 23px;
+	height:150px;
+	overflow-y:scroll;
+	overflow-x:hidden;
 }
 
 .filtersDropDown ul li a
