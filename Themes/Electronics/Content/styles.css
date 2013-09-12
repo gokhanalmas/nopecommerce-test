@@ -118,7 +118,7 @@ a {
 
     a:hover {
         text-decoration: none;
-        color: #7a9b06;
+        color: #DE3455;
     }
 
     a img {
@@ -375,7 +375,7 @@ a.logo {
     }
 
         .header-links a:hover {
-            color: #7A9B06;
+            color: #DE3455;
         }
 
         .header-links a.account {
