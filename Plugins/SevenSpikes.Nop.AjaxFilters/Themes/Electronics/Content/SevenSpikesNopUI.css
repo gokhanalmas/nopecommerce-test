@@ -285,7 +285,7 @@ div.k-window-content {
 {
     top: 23px;
 	max-height:150px;
-	overflow-y:scroll;
+	overflow-y:auto;
 	overflow-x:hidden;
 }
 
