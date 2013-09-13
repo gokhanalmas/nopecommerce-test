@@ -159,6 +159,8 @@ p {
 
 strong {
     font-weight: bold;
+	padding-right:10px;
+	margin-right:65px;
 }
 
 address {
@@ -393,10 +395,10 @@ a.logo {
         }
 
 .header-shopping-bag {
-    background: url('images/cart_icon.gif') no-repeat scroll left center transparent;
+    background: url('images/cart_icon.gif') no-repeat right center transparent;
 	height:65px;
 	position: absolute;
-    top: 67px;
+    top: 90px;
     right: 4px;
     padding-left: 68px;
 }
