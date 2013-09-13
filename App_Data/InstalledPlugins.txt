@@ -4,6 +4,7 @@ Tax.FixedRate
 Widgets.NivoSlider
 ExternalAuth.Facebook
 Payments.PayPalStandard
+Payments.PayU
 SevenSpikes.Core
 SevenSpikes.Nop.Plugins.AjaxCart
 SevenSpikes.Nop.AjaxFilters
