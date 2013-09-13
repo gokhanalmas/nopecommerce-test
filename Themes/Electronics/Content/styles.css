@@ -2978,8 +2978,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
     .category-title h1 {
         color: #000000;
-        font-size: 14px;
-        font-weight: bold;
+        font-size: 15px;
+        /*font-weight: italic;*/
         line-height: 20px;
         padding: 0 0 0 7px;
     }
