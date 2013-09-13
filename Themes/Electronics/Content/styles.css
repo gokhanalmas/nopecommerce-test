@@ -1475,7 +1475,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     height: 25px;
     background: transparent url('images/bkg_btn.png') top repeat-x;
     padding: 0px 12px;
-    font: bold 11px/23px Tahoma, Verdana, Arial, sans-serif;
+    font: italic 15px/23px Georgia, Verdana, Arial, sans-serif;
     color: #fff;
 <<<<<<< HEAD
 	text-indent:-33px;
