@@ -2418,9 +2418,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
     .main-content h1 {
         color: #000000;
-        font-size: 14px;
-        font-weight: bold;
-        line-height: 1.25;
+        font-size: 19px;
+        /*font-weight: bold;
+        line-height: 1.25;*/
+		font-family:georgia;
+		font-style:italic;
     }
 
 /*.boxtitle
