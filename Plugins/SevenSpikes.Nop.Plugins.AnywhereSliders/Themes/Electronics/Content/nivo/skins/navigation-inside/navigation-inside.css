@@ -98,6 +98,8 @@ Supports Thumbs: true
         height: auto;
         background: none;
         margin-bottom: 5px;
+		margin-left:-225px;
+		margin-left:198px;
     }
 
     .theme-navigation-inside .nivo-controlNav.nivo-thumbs-enabled img {
