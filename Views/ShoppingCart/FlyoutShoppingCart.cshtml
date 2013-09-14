@@ -1,7 +1,19 @@
 ﻿@model MiniShoppingCartModel
 @using Nop.Web.Models.ShoppingCart;
 <div id="flyout-cart">
-   
+    <div class="mini-shopping-cart">
+        <div class="count">
+            @if (Model.TotalProducts == 0)
+            {
+                @T("ShoppingCart.Mini.NoItems")
+            }
+            else if (Model.TotalProducts == 1)
+            {
+                @Html.Raw(string.Format(T("ShoppingCart.Mini.OneItemText").Text, string.Format("<a href=\"{0}\" class=\"items\">{1}</a>", Url.RouteUrl("ShoppingCart"), T("ShoppingCart.Mini.OneItem").Text)))
+            }
+            else
+            {
+                @Html.Raw(string.Format(T("ShoppingCart.Mini.SeveralItemsText").Text, string.Format("<a href=\"{0}\" class=\"items\">{1}</a>", Url.RouteUrl("ShoppingCart"), string.Format(T("ShoppingCart.Mini.SeveralItems").Text, Model.TotalProducts))))
             }
         </div>
         @if (Model.TotalProducts > 0)
