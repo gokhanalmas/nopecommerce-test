@@ -2668,7 +2668,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .product-grid, .featured-product-grid {
-    margin-top: 35px;
+    margin-top: -45px;
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
