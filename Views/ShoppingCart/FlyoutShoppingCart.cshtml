@@ -9,7 +9,7 @@
             }
             else if (Model.TotalProducts == 1)
             {
-                @Html.Raw(string.Format(T("ShoppingCart.Mini.OneItemText").Text, string.Format, Url.RouteUrl("ShoppingCart") T("ShoppingCart.Mini.OneItem").Text)))
+                @Html.Raw(string.Format(T("ShoppingCart.Mini.OneItemText").Text, string.Format("<a href=\"{0}\" class=\"items\">{1}</a>", Url.RouteUrl("ShoppingCart"), T("ShoppingCart.Mini.OneItem").Text)))
             }
             else
             {
