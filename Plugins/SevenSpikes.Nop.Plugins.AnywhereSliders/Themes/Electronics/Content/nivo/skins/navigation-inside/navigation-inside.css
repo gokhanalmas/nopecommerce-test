@@ -91,6 +91,7 @@ Supports Thumbs: true
     width: 100%;
     position: static;
     margin-top: 0;
+	margin-left:5px;
 }
 
     .theme-navigation-inside .nivo-controlNav.nivo-thumbs-enabled a {
