@@ -29,7 +29,9 @@
         }
         @if (Model.ShoppingCartEnabled)
         {
-            
+            <li id="topcartlink"><a href="@Url.RouteUrl("ShoppingCart")" class="ico-cart">@T("ShoppingCart")</a>
+                <a href="@Url.RouteUrl("ShoppingCart")" class="cart-qty">(@Model.ShoppingCartItems)</a>
+            </li>
         }
         @if (Model.WishlistEnabled)
         {
