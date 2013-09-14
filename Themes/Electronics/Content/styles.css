@@ -160,7 +160,7 @@ p {
 strong {
     font-weight: bold;
 	padding-right:10px;
-	margin-right:65px;
+	margin-right:85px;
 }
 
 address {
@@ -398,7 +398,7 @@ a.logo {
     background: url('images/cart_icon.gif') no-repeat right center transparent;
 	height:65px;
 	position: absolute;
-    top: 90px;
+    top: 85px;
     right: 4px;
     padding-left: 68px;
 }
