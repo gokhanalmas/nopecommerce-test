@@ -1,0 +1,8 @@
+﻿Group: Ben
+FriendlyName: Tum Kategoriler
+SystemName: Tum.Kategoriler
+Version: 2.81
+SupportedVersions: 2.80
+Author: Seven Spikes
+DisplayOrder: 1
+FileName: Tum.Kategoriler.dll
