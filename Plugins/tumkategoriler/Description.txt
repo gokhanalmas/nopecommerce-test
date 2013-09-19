@@ -1,0 +1,8 @@
+﻿Group: ben
+FriendlyName: tum kategoriler
+SystemName: Tum.Kategoriler
+Version: 2.81
+SupportedVersions: 2.80
+Author: ben
+DisplayOrder: 1
+FileName: Tumkategoriler.dll
