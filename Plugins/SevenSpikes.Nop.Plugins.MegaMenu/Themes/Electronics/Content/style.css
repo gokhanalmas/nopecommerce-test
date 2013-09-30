@@ -76,8 +76,9 @@
 	position:absolute;
 	background-color: #fff ;
 	overflow:hidden;
-	margin-top: -46px;
-	padding:15px;
+	margin-top: -44px;
+	margin-left:200px;
+	padding:1px;
 	text-align: left;
 	border-width: 1px;
 	border-style: solid;
