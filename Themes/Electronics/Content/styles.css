@@ -782,7 +782,7 @@ ul.top-menu {
 }
 
 td {
-    vertical-align: middle;
+    /*vertical-align: middle;*/
 }
 
     td.fieldname {
