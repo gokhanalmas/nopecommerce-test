@@ -23,7 +23,7 @@
 
 /* This is the zoom window. */
 .cloud-zoom-big {
-	border:none;
+	border:solid 1px;
 	overflow:hidden;
 }
 
