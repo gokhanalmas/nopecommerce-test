@@ -4508,11 +4508,15 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
     .product-details-info .overview {
         float: right;
-        width: 422px;
+        width: 650px;
+		margin-top:35px;
     }
 
         .product-details-info .overview .productname {
             margin: 0 0 5px;
+			font-family: Georgia, Verdana, Tahoma;
+			font-style: italic;
+			color: #DE3455
         }
 
         .product-details-info .overview h1 {
@@ -4558,9 +4562,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 
 .product-essential .product-price {
-    color: #396F00;
-    font-size: 14px;
+    color: #DE3455;
+    font-size: 20px;
     font-weight: bold;
+	font-family:Georgia, Verdana, Tahoma;
+	font-style:italic;
 }
 
 .product-essential .old-product-price {
@@ -4601,10 +4607,15 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .product-details-info .shortdescription {
     margin: 10px 0;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	
 }
 
     .product-details-info .shortdescription h2 {
         font: bold 12px/1.25 Arial, Helvetica, sans-serif;
+		color: white;
+		
     }
 
 .product-details-info .attributes {
@@ -4625,10 +4636,10 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 
 .product-details-info .product-options-bottom {
-    background-color: #f6f6f6;
+    /*background-color: #f6f6f6;
     padding: 15px 20px;
     border: 1px solid #eee;
-    border-top: 0;
+    border-top: 0;*/
 }
 
     .product-details-info .product-options-bottom .add-to-cart {
