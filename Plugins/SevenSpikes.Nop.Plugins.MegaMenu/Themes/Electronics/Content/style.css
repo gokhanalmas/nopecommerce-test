@@ -37,7 +37,7 @@
 	/*margin: -1px -2px 0 0;*/
 	width: 165px;
 	border-bottom: 1px solid;
-	border-color:rgb(238, 238, 238);
+	border-color:rgb(179, 179, 179);
 }
 
 .mega-menu > li:first-child 
@@ -115,7 +115,7 @@
 .mega-menu .title 
 {
     display: block;
-	margin-bottom: 8px;
+	margin-bottom: -25px;
 	padding: 5px 0 8px;
     font: normal bold 12px Arial, Helvetica, sans-serif;
 	color: #7a9b06;
@@ -137,7 +137,9 @@
     display: block;
 	background: url('images/arrow1.png') left center no-repeat;
     padding: 5px 12px;
-    font: normal normal 12px Arial, Helvetica, sans-serif;
+	font-family:tahoma;
+	font-size:12px;
+    /*font: normal normal 12px Arial, Helvetica, sans-serif;*/
     color: #333 !important;
 }
 .mega-menu .box li a:hover 
