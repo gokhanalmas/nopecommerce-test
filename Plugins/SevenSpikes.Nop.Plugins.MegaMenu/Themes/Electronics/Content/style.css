@@ -32,11 +32,12 @@
 }
 .mega-menu > li {
 	float: left;
-	height: 36px;
+	height: 25px;
 /*  background: url('images/spacer_nav.gif') right center no-repeat;*/
-	margin: -1px -2px 0 0;
+	/*margin: -1px -2px 0 0;*/
 	width: 200px;
 	border-bottom: 1px solid;
+	border-color:rgb(238, 238, 238);
 }
 
 .mega-menu > li:first-child 
@@ -59,8 +60,8 @@
 }
 
 .mega-menu > li:hover > a {
-	color: #FFFFFF;
-	background-color: #004E77;
+	color: #363636;
+	background-color: #E4E4E4;
 }
 
 /*.mega-menu li .drop {
@@ -76,7 +77,7 @@
 	position:absolute;
 	background-color: #fff ;
 	overflow:hidden;
-	margin-top: -44px;
+	margin-top: -25px;
 	margin-left:200px;
 	padding:1px;
 	text-align: left;
