@@ -49,11 +49,12 @@
 {
     display: block;
     padding: 0 0px 0 3px;
-    font-size: 12px;
+	font-family:Tahoma;
+    font-size: 13px;
     color: #333;
     text-decoration: none;
     text-transform: capitalize;
-    font-weight: bold;
+    /*font-weight: bold;*/
 	
     line-height: 24px;
 	border-top: 1px solid transparent;
