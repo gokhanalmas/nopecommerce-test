@@ -35,14 +35,14 @@
 	height: 25px;
 /*  background: url('images/spacer_nav.gif') right center no-repeat;*/
 	/*margin: -1px -2px 0 0;*/
-	width: 200px;
+	width: 165px;
 	border-bottom: 1px solid;
 	border-color:rgb(238, 238, 238);
 }
 
 .mega-menu > li:first-child 
 {
-	margin-left: -1px;
+	/*margin-left: -1px;*/
 }
 
 .mega-menu > li > a 
@@ -78,7 +78,7 @@
 	background-color: #fff ;
 	overflow:hidden;
 	margin-top: -25px;
-	margin-left:200px;
+	margin-left:163px;
 	padding:1px;
 	text-align: left;
 	border-width: 1px;
