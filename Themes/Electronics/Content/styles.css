@@ -1000,7 +1000,7 @@ checkbox, input, radio, select {
 }
     input[type="text"], input[type="password"] {
         padding: 2px 0 2px 2px;
-        width: 350px;
+        width: 475px;
     }
 .productQuantityTextBox {
     width: 40px !important;
