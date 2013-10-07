@@ -513,7 +513,8 @@ ul.top-menu {
 .search-box {
     float: left;
     height: 25px;
-    margin-top: 7px;
+    margin-top: -40px;
+	margin-left:47px;
 }
 .search-box ul
 {
