@@ -1348,13 +1348,16 @@ ul.languagelist {
         padding: 0 10px;
         color: #000000;
         display: block;
-        font: bold 13px/1.5 Arial,Helvetica,sans-serif;
+        /*font: bold 13px/1.5 Arial,Helvetica,sans-serif;*/
+		font-family:georgia;
+		font-style:italic;
         line-height: 39px;
         text-shadow: 1px 1px 0 #FFFFFF;
+		text-decoration:underline;
     }
 
         .block .title strong span {
-            padding-left: 25px;
+            padding-left: -23px;
             padding-bottom: 2px;
         }
 
@@ -1389,7 +1392,7 @@ ul.languagelist {
 
     .block li {
         list-style: none;
-/*      margin: 5px 0; */
+        margin: -2px -54px;
     }
 
     .block ul.sublist {
