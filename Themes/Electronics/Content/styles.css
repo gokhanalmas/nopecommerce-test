@@ -399,7 +399,7 @@ a.logo {
     background: url('images/cart_icon.gif') no-repeat right center transparent;
 	height:65px;
 	position: absolute;
-    top: 85px;
+    top: 67px;
     right: 4px;
     padding-left: 68px;
 }
@@ -513,7 +513,7 @@ ul.top-menu {
 .search-box {
     float: left;
     height: 25px;
-    margin-top: -40px;
+    margin-top: -74px;
 	margin-left:47px;
 }
 .search-box ul
@@ -536,7 +536,7 @@ ul.top-menu {
 .search-box-text {
     //*background: url('images/searchbg.png') repeat-x !important;*//
     width: 529px !important;
-    height: 21px !important;
+    height: 38px !important;
     margin-right: 5px !important;
     margin-left: 166px !important;
     float: left !important;
@@ -579,7 +579,7 @@ ul.top-menu {
     width: 38px;
     font: normal bold 1px Arial, Helvetica, sans-serif;
     color: #fff;
-	margin-top: 1px;
+	margin-top: 10px;
 	
     //*border-radius: 5px;*//
 }
