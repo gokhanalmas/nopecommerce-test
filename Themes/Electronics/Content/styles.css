@@ -541,7 +541,7 @@ ul.top-menu {
     margin-left: 166px !important;
     float: left !important;
     display: inline !important;
-    border: 1px solid #000000;
+    border: 1px solid #B8B8B8;
     //*border-radius: 5px;*//
 }
 
@@ -1000,7 +1000,7 @@ checkbox, input, radio, select {
 }
     input[type="text"], input[type="password"] {
         padding: 2px 0 2px 2px;
-        width: 564px;
+        width: 350px;
     }
 .productQuantityTextBox {
     width: 40px !important;
