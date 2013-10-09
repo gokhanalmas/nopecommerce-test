@@ -1394,7 +1394,7 @@ ul.languagelist {
 
     .block li {
         list-style: none;
-        margin: -2px -54px;
+        margin: -2px -1px;
     }
 
     .block ul.sublist {
