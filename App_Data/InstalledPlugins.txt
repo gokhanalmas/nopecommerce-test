@@ -18,3 +18,5 @@ SevenSpikes.Nop.Plugins.NopQuickTabs
 SevenSpikes.Nop.Plugins.QuickView
 SevenSpikes.Nop.Plugins.SmartSEO
 SevenSpikes.Theme.Electronics
+Widgets.GoogleAnalytics
+Misc.MailChimp 
