@@ -32,8 +32,7 @@
        
        @if (Model.ShoppingCartEnabled)
        {
-           <li id="topcartlink"><a href="@Url.RouteUrl("ShoppingCart")">@T("ShoppingCart")</a>
-            <a href="@Url.RouteUrl("ShoppingCart")" class="middle">(@Model.ShoppingCartItems)</a> </li>
+           
            
            <script type="text/javascript">
                $('#topcartlink').live('mouseenter', function () {
