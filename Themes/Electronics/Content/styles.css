@@ -646,7 +646,7 @@ ul.top-menu {
 /* three column master page */
 .master-wrapper-leftside-3 {
     float: left;
-    width: 222px;
+    width: 157px;
     margin: 0 8px 20px 0;
     padding: 0 0 1px;
     position: relative;
@@ -656,7 +656,7 @@ ul.top-menu {
 .master-wrapper-center-3 {
     float: left;
     margin: 0 0 20px;
-    width: 580px;
+    width: 631px;
     padding: 0 0 1px;
     position: relative;
     z-index: 0;
@@ -669,7 +669,7 @@ ul.top-menu {
 
 .master-wrapper-rightside-3 {
     float: right;
-    width: 170px;
+    width: 186px;
     padding: 0 0 1px;
     position: relative;
     z-index: 0;
@@ -2447,7 +2447,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .home-page-product-grid {
     width: 983px;
-    margin-left: -237px !important;
+    margin-left: -173px !important;
 }
 
     .home-page-product-grid .main-border-left {
@@ -2674,7 +2674,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .product-grid, .featured-product-grid {
-    /*margin-top: -45px;*/
+    margin-top: -45px;
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
