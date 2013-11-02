@@ -2759,7 +2759,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     }
 
     .product-grid .product-item .prices, .featured-product-grid .product-item .prices {
-        margin-top: 5px;
+        margin-top: 12px;
     }
 
         .product-grid .product-item .prices .product-price, .featured-product-grid .product-item .prices .product-price {
@@ -2772,6 +2772,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
             color: #000;
             text-decoration: line-through;
             font-size: 12px;
+			margin-left:-173px;
+			margin-bottom:-19px;
         }
 
     .product-grid .product-item .add-to-cart, .featured-product-grid .product-item .add-to-cart {
