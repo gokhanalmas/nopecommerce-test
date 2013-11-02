@@ -2674,9 +2674,9 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .product-grid, .featured-product-grid {
-    margin-top: -45px;
+    margin-top: -5px;
     margin-bottom: 15px;
-    margin-left: auto;
+    margin-left: -19px;
     margin-right: auto;
 }
 
@@ -4746,11 +4746,13 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 
 .product-collateral .tabhead h3 {
-    font-size: 14px;
+    font-size: 17px;
     font-weight: bold;
     color: #000;
     padding-left: 10px;
     padding-bottom: 2px;
+	font-family:Georgia, Verdana, Tahoma;
+	font-style:italic;
 }
 
 .product-details-info .fulldescription {
@@ -5157,9 +5159,9 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     }
 
     .related-products-grid .product-item, .also-purchased-products-grid .product-item {
-        margin: 10px;
+        margin: 4px;
         text-align: center;
-        width: 150px;
+        width: 225px;
     }
 
         .related-products-grid .product-item .product-title, .also-purchased-products-grid .product-item .product-title {
@@ -5185,8 +5187,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
         .related-products-grid .product-item .picture, .also-purchased-products-grid .product-item .picture {
             text-align: center;
-            width: 150px;
-            height: 150px;
+            width: 225px;
+            height: 225px;
             overflow: hidden;
         }
         
