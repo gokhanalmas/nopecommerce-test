@@ -892,6 +892,7 @@ td {
     font-size: 0;
     height: 0;
     line-height: 0;
+	padding-bottom:5px;
 }
 
 .nobr {
