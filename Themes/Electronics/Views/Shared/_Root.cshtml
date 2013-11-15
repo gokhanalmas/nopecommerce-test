@@ -102,24 +102,46 @@ function MM_swapImage() { //v3.0
         <div class="master-wrapper-main">
             @RenderBody()
         </div>
+		
 		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Untitled Document</title>
+<script>
+function Goster(){
+var q;
+q=document.getElementById("bilgi");
+q.style.display="";
+document.getElementById("link").focus();
+
+
+document.getElementById("link").setAttribute("oncl ick","Gizle()");
+}
+function Gizle(){
+var q;
+q=document.getElementById("bilgi");
+q.style.display="none";
+document.getElementById("link").setAttribute("oncl ick","Goster()");
+}
+
+
+</script>
 </head>
 
 <body>
-<table width="981" height="277" background="/Themes/Electronics/Content/Footerimages/anasayfa-enalt.jpg" border="0" style="
-    background-repeat: no-repeat;
-">
+<div>
+<div class="link"><a onblur="Gizle()" onclick="Goster()" id="link" class="link" href="javascript://"><img src="/Themes/Electronics/Content/Footerimages/hayyamcarsisi-neden-biz.jpg" alt="Neden Hayyamçarşısı ?" width="981" height="20" /></a></div>
+<div class="bilgi" id="bilgi" style="display:none;">
+<table width="981" height="277" background="/Themes/Electronics/Content/Footerimages/anasayfa-enalt-arkaplan.jpg" border="0">
+
   <tr>
-    <th height="38" colspan="2" scope="row"><p style="padding-top:-90px; margin-top:-1px; padding-left:12px;"><font size="+3" face="Georgia" color="#3d67a2"><b><i>Hayyam Çarşısı'na Hoşgeldiniz!</i></b></font></p></th>
+    <th height="38" colspan="2" scope="row"><p style="padding-top:-90px; margin-top:-6px; padding-left:12px;"><font size="+3" face="Georgia" color="#3d67a2"><b><i>Hayyam Çarşısı'na Hoşgeldiniz!</i></b></font></p></th>
     <td width="402">&nbsp;</td>
   </tr>
   <tr>
-    <td width="568" height="206" scope="row"><p style="margin-left:4px; margin-top:-20px;"><font size="-1" face="Tahoma" style="
-    font-size: 12px;">
+    <td width="568" height="206" scope="row"><p style="margin-left:4px; margin-top:-20px;"><font size="-1" face="Tahoma" style="font-size: 12px;">
+	
 "Yaratıcılığınızı Konuşturmak için Gereken Her Şey" sloganıyla yola çıkan
 Hayyam Çarşısı, fotoğraf ve videoyla la ilgili tüm ürünleri en uygun fiyat
 garantisiyle sizlerle buluşturmayı amaçlıyor. 
@@ -142,8 +164,11 @@ güvenliğinizi maksimuma çıkarır.</font></p></td>
     <td colspan="2">&nbsp;</td>
   </tr>
 </table>
+</div>
+</div>
 </body>
 </html>
+
 
 		<div class="footer-css">
 		
@@ -180,13 +205,14 @@ ob.value=s;
 
   <tr>
 
-    <td height="72" colspan="5" align="center" valign="middle" scope="row">
+    <td height="72" colspan="5" align="center" valign="middle" scope="row" style="padding-top: 20px;">
     
     <hr style="
     z-index: 1;
     margin-bottom: -12px;
     border-width: 1px;
-    border-color: #3d67a2;">
+    border-color: #3d67a2;
+	width: 976px;">
     
     <input name="" value="Bultene Abone Ol" type="text" onBlur="rldInput(this,'Bultene Abone Ol')" onFocus="clrInput(this,'Bultene Abone Ol')" style="
     border: 1px solid #3d67a2;
